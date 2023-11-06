@@ -1,0 +1,2 @@
+org.java_websocket.AbstractWebSocket
+org.java_websocket.AbstractWebSocket$1

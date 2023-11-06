@@ -1,0 +1,98 @@
+<html>
+<style type="text/css">
+html, body, #map { width:100%; height:100%; margin:0; }
+#map {
+    position: absolute;
+    z-index: 5;
+}
+#msg {
+    position: absolute;
+    z-index: 10;
+    left: 50%;
+    transform: translate(-50%, 5px);
+    background-color: rgba(40,40,40,.8);
+    padding: 10px;
+    color: #eee;
+    width: 350px;
+    text-align: center;
+}
+</style>
+<head>
+  
+
+</head>
+<body onload="">
+<div id="map" class="map"></div>
+<div id="msg">Drag the markers</div>
+<p>hello</p>
+
+    <script src="ol.js"></script>
+
+
+ 
+  <script>
+var coord1 = [-5707673.76, -3499420.81];
+var coord2 = [-6707673.76, -3499420.81];
+
+var lineStyle = new ol.style.Style({
+  stroke: new ol.style.Stroke({ color: '#ffcc33', width: 3 })
+});
+var styleMarker = new ol.style.Style({
+  image: new ol.style.Icon({
+    scale: .7, anchor: [0.5, 1],
+    src: 'icon.png'
+  })
+});
+
+var marker1 = new ol.geom.Point(coord1);
+var featureMarker1 = new ol.Feature(marker1);
+var marker2 = new ol.geom.Point(coord2);
+var featureMarker2 = new ol.Feature(marker2);
+
+var line = new ol.geom.LineString([coord1, coord2]);
+var lineFeature = new ol.Feature(line);
+
+var vector = new ol.layer.Vector({
+  source: new ol.source.Vector({
+    features: [lineFeature, featureMarker1, featureMarker2]
+  }),
+  style: [lineStyle, styleMarker]
+});
+
+var map = new ol.Map({
+  target: 'map',
+  layers: [new ol.layer.Tile({ source: new ol.source.OSM() }), vector],
+  view: new ol.View({ center: coord1, zoom: 5 })
+});
+
+var translate1 = new ol.interaction.Translate({
+  features: new ol.Collection([featureMarker1])
+});
+var translate2 = new ol.interaction.Translate({
+  features: new ol.Collection([featureMarker2])
+});
+map.addInteraction(translate1);
+map.addInteraction(translate2);
+
+var coordMarker1, coordMarker2;
+translate1.on('translatestart', function (evt) {
+  coordMarker2 = marker2.getCoordinates();
+});
+translate1.on('translating', function (evt) {
+  line.setCoordinates([coordMarker2, evt.coordinate]);
+});
+translate2.on('translatestart', function (evt) {
+  coordMarker1 = marker1.getCoordinates();
+});
+translate2.on('translating', function (evt) {
+  line.setCoordinates([coordMarker1, evt.coordinate]);
+});
+
+map.on('pointermove', function(e) {
+  if (e.dragging) return;
+  var hit = map.hasFeatureAtPixel(map.getEventPixel(e.originalEvent));
+  map.getTargetElement().style.cursor = hit ? 'pointer' : '';
+});
+
+     </script>
+</body></html>

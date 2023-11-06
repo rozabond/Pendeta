@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html>
+<head>
+	  <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/all.css">
+	<link rel="stylesheet" type="text/css" href="">
+	<title></title>
+</head>
+<body>
+
+<div id="background">
+		<div id="page">
+			<div id="" class="top_div_background">
+			<div class="topnav">
+				<div class="logo"><img src="images/Tanyapendeta_1.png"><P>TANYAPENDETA</P></div>
+				<a href="#about"><i class="fas fa-search"></i>              </a>
+				<a href="#about">Tanya</a>
+				<a href="#podcast-mainpage-display-lower">Jawapan</a>
+				<a href="#audio_renungan_pagi">Renungan</a>
+
+			</div>
+			<div class="midnav">
+				<div class="midnav-quotes" id="midnav-quotes-id">
+					<h1 id="midnav-quotes-h1">Cari
+<h1 id="midnav-quotes-h2"> Jawapan?</h1>
+					</h1>
+						 
+					<p>"Dalam hidup sering kali kita mempersoalkan semuanya. Tanya Soalan-soalan kepada para pendeta"</p>
+				</div>
+				<div class="midnav-writes">
+					<div class="body_textarea_input" id="textarea_input">
+				
+						<div class="body_textarea_input_send">
+								<!--<p>hi.</p> -->
+								<i class="fas fa-question-circle"></i>
+															 <button class="midnav-writes-send" onclick="on_off(document.getElementById('textarea_input'),document.getElementById('email_input'))">HANTAR</button>	
+													
+<form method="POST" action="./php/Send_information.php" id="question-form">
+													 <textarea id="w3mission" name="seeker_question" onclick="check_empty()">
+												"Ask, and it will be given to you; Seek,and you will find; knock, and it will be opened to you." Matthew 7:7	
+												</textarea>
+
+														
+																	
+						</div>
+
+					</div>
+
+					<div class="body_email_input" id="email_input">
+						<p style="margin-left: -4%;">*Perhatian</p>
+						<p>Seorang Pastor bertauliah akan menjawap soalan anda, selepas terjawap akan dijawap melalui email anda..</p>
+						<p>Sila Isi Email anda</p>
+											     <ul>
+														<li class="first">
+															<!--<p>hi.</p> -->
+															<p class="">
+														<i class="fas fa-envelope-square"></i>
+															</p>
+														</li>
+														<li class="last">
+															<p>
+													<input id="email" name="seeker_email">
+															</p>
+														</li>
+												 </ul>
+												  <div class="midnav-writes-email-input-send">
+						<a onclick="submit()"> <p id="midnav-writes-email-input-send-p">Hantar</p></a>
+					</div>
+											  </div>
+											</form>
+					
+				</div>
+				<div class="midnav-next">
+					
+				</div>	
+			</div>
+			<div class="lastnav">
+				<div class="lastnav-bibletext">
+					<p>"For God So loved the world, 
+					that he gave his only begotten Son,
+					that whosoever believeth in him should 
+					not parish, but have everlasting life" John 3:16</p>
+				</div>
+			</div>
+
+
+
+		</div>    
+</div>
+</div>
+
+<div id="background_audio">
+	<div id="audio_renungan_pagi"><h1>Renungan Pagi</h1></div>
+	<div id="page">
+			
+	<div class="picture_audio"><img src="./images/Tanyapendeta_1.png"></div>
+		
+		<div id="picture_audio_tajuk"><h1>APAKAH ARTI DARI PELAYANAN BAIT SUCI?</h1>
+		<div style="display: flex; margin-top: 1%;"><p>Pendeta:Pr Andi	    </p>
+	</div>
+	</div>
+<div class="audio-player">
+ 
+  <div class="controls">
+
+    <div class="play-container">
+      <div class="toggle-play play">
+      	<i class="fas fa-play" id="play_icon"></i>
+    </div>
+    </div>
+
+<!--     credit for icon to https://saeedalipoor.github.io/icono/ -->
+    <div class="volume-container" style="display: none;">
+      <div class="volume-button">
+        <div class="volume icono-volumeMedium"></div>
+      </div>
+      
+      <div class="volume-slider">
+        <div class="volume-percentage"></div>
+      </div>
+    </div>
+  </div>
+
+   <div class="timeline" style="display: none;">
+    <div class="progress"></div>
+  </div>
+</div>
+
+<div class="audio-player_share">
+  		<div class="controls">
+    		<div class="play-container">
+      				<a href=""><div class="toggle-play play">
+
+      				<h1>Share</h1>
+    				</div></a>
+    		</div>
+<!--     credit for icon to https://saeedalipoor.github.io/icono/ -->
+  	   </div>
+ </div>
+
+	</div>
+</div>
+
+<div id="background" class="background_menu" style="height: 100vh;">
+		<div id="page">			
+			<div class="podcast_inner_upper">
+				<img src="./images/Mainpage1.jpg">
+				<div class="podcast_inner_upper_container">
+					<div class="podcast_inner_upper_container_30">
+						
+					</div>
+					<div class="podcast_inner_upper_container_70">
+						<h1>TANYAPENDETA PODCAST</h1>
+						<p>"Kami di sini untuk menjawap pertanyaan anda"</p>
+					</div>
+				</div>
+				</div>
+			<div class="podcast_inner_lower">	
+					<div class="container_podcast_100" id="podcast-mainpage-display-lower">
+			 		<div class="podcast_inner_lower_minitube">
+							<div class="podcast_inner_lower_minitube_container">
+							<div class="podcast_minitube_pipeline">
+									<div class="podcast_question">
+										<div class="podcast_question_1" id="rohani_question_0">
+										<img src="./images/podcast_menu/alkitab.jpg">
+									</div>
+									<div class="podcast_question_text" >
+										<h1>Alkitab</h1>
+										<p style="background-color: #00CDB9;"> </p>
+
+											<button><a onclick="podcast_next(getAttribute('value'))" value="alkitab">Play</a></button>
+									</div>
+									
+									</div>
+							</div>
+							<div class="podcast_minitube_pipeline">
+									<div class="podcast_question">
+										<div class="podcast_question_2" id="rohani_question_1">
+										<img src="./images/podcast_menu/keluarga.jpg">
+									</div>
+									<div class="podcast_question_text">
+										<h1>Keluarga</h1>
+										<p style="background-color: #AFE1B7;"> </p>	
+						<button><a onclick="podcast_next(getAttribute('value'))" value="keluarga">Play</a></button>
+									</div>
+									
+									</div>
+							</div>
+						
+							<div class="podcast_minitube_pipeline">
+									<div class="podcast_question">
+										<div class="podcast_question_3"  id="rohani_question_2">
+										<img src="./images/podcast_menu/kesihatan.jpg">
+									</div>
+									<div class="podcast_question_text">
+											<h1>Kesihatan</h1>
+									<p style="background-color: #FFCE00;"> </p>
+								<button><a onclick="podcast_next(getAttribute('value'))" value="kesihatan">Play</a></button>
+									</div>
+																	</div>
+							</div>
+							<div class="podcast_minitube_pipeline" style="border-right-style: none;">
+									<div class="podcast_question">
+										<div class="podcast_question_4"  id="rohani_question_3">
+										<img src="./images/podcast_menu/social.jpg">
+									</div>
+									<div class="podcast_question_text">
+											<h1>Social</h1>
+										<p style="background-color:#B4C8D5;"> </p>
+									<button><a onclick="podcast_next(getAttribute('value'))" value="social">Play</a></button>
+									</div>
+									
+									</div>
+							</div>
+						</div>
+						</div>
+			 	</div>
+
+				</div>
+			</div>
+		</div>
+</div>
+<div id="background_bottom">
+		<div id="page">
+			<div id="" class="bottom_page">
+				<div class="podcast_bottom_container_30">
+					<div class="podcast_bottom_inner_container_30">
+						<div class="img_podcast_bottom"></div><h1>TANYAPENDETA</h1>
+						<p style="margin-top: 9%;">Kota Kinabalu, Sabah Malaysia</p>
+						<p>Email us on: <b>pendeta@Tanyapendeta.today</b></p>
+						
+					</div>
+					<div class="icon_hub_container">
+					<p style="display: inline-block;"> Follow us on:
+						</p>
+						<div class="icon_hub"><i class="fab fa-facebook-f"></i></div>
+					</div>
+				</div>
+
+				<div class="podcast_bottom_container_70">
+					<div class="podcast_bottom_inner_container_70">
+						 <ul class="w3-ul">
+						 	<h1>Organisasi</h1>
+    						<li>Volunteering</li>
+    <li>About us</li>
+
+  </ul>
+   <ul class="w3-ul">
+   	<h1>Belajar</h1>
+    <li>Podcast</li>
+  
+  </ul>
+					</div>
+				</div>
+			</div>
+		</div>
+</div>
+
+</body>
+
+<script src="javascript/switch.js"></script>
+<script type="text/javascript">	
+
+console.log(screen.width);
+
+function put_value(x) {
+
+ document.getElementById("w3mission").value = x;	
+ console.log(document.getElementById("w3mission").value);
+}
+
+
+function check_empty() {
+  var x = JSON.stringify(document.getElementById("w3mission").value);
+ console.log(x);
+ /* if (x == "" || x == null) {
+  	
+    return false;
+  }else{
+
+  }*/
+  put_value(x);
+}
+
+function on_off(item,second_item) {
+item.style.animation = "animateleft 2s";	
+//for the purpose of switching off the item display later
+setTimeout(off_display(item), 3000);
+on(second_item);
+//takes the value 
+check_empty();
+}
+
+function on(item) {
+item.style.display = "block";
+item.style.animation = "animatetop 1s";	
+}
+
+function off_display(item) {
+item.style.display = "none";
+document.getElementById("midnav-quotes-id").style.display="none";
+}
+
+function submit() {
+document.getElementById("question-form").submit();
+}
+
+function on_off_podcast(element,off_element2) {
+const myswitch = new Switch2();
+
+console.log(element);
+console.log(off_element2);
+myswitch.switch_on(element);
+myswitch.switch_off(off_element2);
+}
+
+</script>
+<script type="text/javascript">
+	
+	function podcast_next(audio_title) {
+	window.localStorage.setItem("mp3name", audio_title);
+	window.location.href = "./php/podcast_menu.php?lat="+audio_title;
+	}
+
+
+
+</script>
+
+<script type="text/javascript">
+	// Possible improvements:
+// - Change timeline and volume slider into input sliders, reskinned
+// - Change into Vue or React component
+// - Be able to grab a custom title instead of "Music Song"
+// - Hover over sliders to see preview of timestamp/volume change
+var char = localStorage.getItem("mp3name");
+var url_audio = "./images/Mainpod/" + "audio" + ".mpeg";
+const audioPlayer = document.querySelector(".audio-player");
+const audio = new Audio(
+ url_audio
+);
+//credit for song: Adrian kreativaweb@gmail.com
+
+console.dir(audio);
+
+audio.addEventListener(
+  "loadeddata",
+  () => {
+    audioPlayer.querySelector(".time .length").textContent = getTimeCodeFromNum(
+      audio.duration
+    );
+    audio.volume = .75;
+  },
+  false
+);
+
+//click on timeline to skip around
+const timeline = audioPlayer.querySelector(".timeline");
+timeline.addEventListener("click", e => {
+  const timelineWidth = window.getComputedStyle(timeline).width;
+  const timeToSeek = e.offsetX / parseInt(timelineWidth) * audio.duration;
+  audio.currentTime = timeToSeek;
+}, false);
+
+//click volume slider to change volume
+const volumeSlider = audioPlayer.querySelector(".controls .volume-slider");
+volumeSlider.addEventListener('click', e => {
+  const sliderWidth = window.getComputedStyle(volumeSlider).width;
+  const newVolume = e.offsetX / parseInt(sliderWidth);
+  audio.volume = newVolume;
+  audioPlayer.querySelector(".controls .volume-percentage").style.width = newVolume * 100 + '%';
+}, false)
+
+//check audio percentage and update time accordingly
+/*setInterval(() => {
+  const progressBar = audioPlayer.querySelector(".progress");
+  progressBar.style.width = audio.currentTime / audio.duration * 100 + "%";
+  audioPlayer.querySelector(".time .current").textContent = getTimeCodeFromNum(
+    audio.currentTime
+  );
+}, 500);*/
+
+//toggle between playing and pausing on button click
+const playBtn = audioPlayer.querySelector(".controls .toggle-play");
+playBtn.addEventListener(
+  "click",
+  () => {
+    if (audio.paused) {
+      playBtn.classList.remove("play");
+      playBtn.classList.add("pause");
+      document.getElementById("play_icon").style.display = "none";
+      audio.play();
+    } else {
+      playBtn.classList.remove("pause");
+      playBtn.classList.add("play");
+       document.getElementById("play_icon").style.display = "block";
+      audio.pause();
+    }
+  },
+  false
+);
+
+audioPlayer.querySelector(".volume-button").addEventListener("click", () => {
+  const volumeEl = audioPlayer.querySelector(".volume-container .volume");
+  audio.muted = !audio.muted;
+  if (audio.muted) {
+    volumeEl.classList.remove("icono-volumeMedium");
+    volumeEl.classList.add("icono-volumeMute");
+  } else {
+    volumeEl.classList.add("icono-volumeMedium");
+    volumeEl.classList.remove("icono-volumeMute");
+  }
+});
+
+//turn 128 seconds into 2:08
+function getTimeCodeFromNum(num) {
+  let seconds = parseInt(num);
+  let minutes = parseInt(seconds / 60);
+  seconds -= minutes * 60;
+  const hours = parseInt(minutes / 60);
+  minutes -= hours * 60;
+
+  if (hours === 0) return `${minutes}:${String(seconds % 60).padStart(2, 0)}`;
+  return `${String(hours).padStart(2, 0)}:${minutes}:${String(
+    seconds % 60
+  ).padStart(2, 0)}`;
+}
+
+
+</script>
+<script type="text/javascript">
+	
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+     console.log(this.responseText);
+     var bool = this.responseText;
+	 var nice = JSON.parse(this.responseText);
+	 var array = shifts(nice);
+	 console.log("what'sthis");  
+	    console.log(array);
+	  recursivetable(array,value,name);
+	  reloadCss();
+    }
+  };
+  xhttp.open("GET", "php/load_index_img.php?f=" + "renungan01" + "&d="+ "renungan02" +"&g=" + "renungan03" , true);
+  xhttp.send();
+</script>
+
+
+</html>

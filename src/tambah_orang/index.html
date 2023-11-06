@@ -1,0 +1,77 @@
+<html><body onload="init()">
+  <div id="map"></div>
+  <script src="OpenLayers.js"></script>
+
+  <script>
+       OpenLayers.Control.Click = OpenLayers.Class(OpenLayers.Control, {                
+                defaultHandlerOptions: {
+                    'single': true,
+                    'double': false,
+                    'pixelTolerance': 0,
+                    'stopSingle': false,
+                    'stopDouble': false
+                },
+
+                initialize: function(options) {
+                    this.handlerOptions = OpenLayers.Util.extend(
+                        {}, this.defaultHandlerOptions
+                    );
+                    OpenLayers.Control.prototype.initialize.apply(
+                        this, arguments
+                    ); 
+                    this.handler = new OpenLayers.Handler.Click(
+                        this, {
+                            'click': this.trigger
+                        }, this.handlerOptions
+                    );
+                }, 
+
+                trigger: function(e) {
+                    var markers = new OpenLayers.Layer.Markers( "Markers" );
+    map.addLayer(markers);
+    
+    var size = new OpenLayers.Size(21,25);
+var offset = new OpenLayers.Pixel(-(size.w/2), -size.h);
+    var icon = new OpenLayers.Icon('marker.png', size, offset);
+                var icon = new OpenLayers.Icon('marker.png', size, offset);
+
+                    var lonlat = map.getLonLatFromPixel(e.xy);
+                  //  alert("You clicked near " + lonlat.lat + " N, " +
+               //                               + lonlat.lon + " E");
+               // }
+                   markers.addMarker(new OpenLayers.Marker(lonlat,icon));}
+
+            });
+            var map;
+            function init(){
+                map = new OpenLayers.Map('map');
+                map.addLayer(new OpenLayers.Layer.OSM("OpenStreetMap"));
+
+                var ol_wms = new OpenLayers.Layer.WMS( "OpenLayers WMS",
+                    "http://vmap0.tiles.osgeo.org/wms/vmap0?", {
+                                       layers: "basic",
+                                       transparent: true
+                                   } );
+
+            var jpl_wms = new OpenLayers.Layer.WMS( "NASA Global Mosaic",
+                "http://t1.hypercube.telascience.org/cgi-bin/landsat7", 
+                {
+                                       layers: "landsat7",
+                                       transparent: true
+                                   });
+
+                jpl_wms.setVisibility(false);
+                ol_wms.setVisibility(false);
+
+                map.addLayers([ol_wms, jpl_wms]);
+                map.addControl(new OpenLayers.Control.LayerSwitcher());
+                // map.setCenter(new OpenLayers.LonLat(0, 0), 0);
+                map.zoomToMaxExtent();
+                
+                var click = new OpenLayers.Control.Click();
+                map.addControl(click);
+                click.activate();
+
+            }
+     </script>
+</body></html>

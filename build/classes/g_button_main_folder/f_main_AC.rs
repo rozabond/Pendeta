@@ -1,0 +1,13 @@
+gereja.f_main_AC$2
+gereja.f_main_AC$1
+gereja.f_main_AC$8
+gereja.f_main_AC$7
+gereja.f_main_AC$9
+gereja.f_main_AC$4
+gereja.f_main_AC$3
+gereja.f_main_AC$6
+gereja.f_main_AC$5
+gereja.f_main_AC$12
+gereja.f_main_AC
+gereja.f_main_AC$11
+gereja.f_main_AC$10

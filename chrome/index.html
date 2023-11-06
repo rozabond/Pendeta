@@ -1,0 +1,184 @@
+ <!DOCTYPE html>
+ <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+       lang="en" dir="ltr">
+   <head>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+      <style>
+        html, body, #map { width:100%; height:100%; margin:0; }
+#map {
+    position: absolute;
+    z-index: 5;
+}
+#msg{
+    position: absolute;
+    z-index: 10;
+    left: 50%;
+    transform: translate(-50%, 5px);
+    background-color: rgba(40,40,40,.8);
+    padding: 10px;
+    color: #eee;
+    width: 350px;
+    text-align: center;
+}
+#marker {
+width: 48px;
+    height: 52px;
+    border: white;
+    border-bottom-left-style: ridge;
+    opacity: 1.0;
+    background-image: url(marker.png);
+    background-size: 48px;
+    cursor: move;
+}
+.ol-zoom {
+    top: .5em;
+    left: .5em;
+}
+
+.ol-control {
+    position: relative;
+    border-radius: 4px;
+    padding: 2px;
+    width: max-content;
+}
+.ol-zoom .ol-zoom-in {
+    border-radius: 2px 2px 0 0;
+}
+.ol-control button {
+    display: block;
+    margin: 1px;
+    padding: 0;
+    color: #fff;
+    font-size: 1.14em;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    height: 1.375em;
+    width: 1.375em;
+    line-height: .4em;
+    background-color: rgba(0,60,136,.5);
+    border: none;
+    border-radius: 2px;
+}
+
+.ol-zoom .ol-zoom-out {
+    border-radius: 0 0 2px 2px;
+}
+
+.ol-rotate{
+  display: none;
+}
+.ol-attribution {
+  font-size: 11px;
+}
+.ol-attribution button{
+  display: none;
+}
+     </style>
+     <script src="ol.js" type="text/javascript"></script>
+     <title>OpenLayers 3 example</title>
+   </head>
+   <body>
+   <div id="map" class="map"></div>
+<div id="marker" title="Marker"></div>
+
+         <script src="ol.js"></script>
+         <script>
+     var ws = new WebSocket("ws://localhost:8081");
+var coordinate;
+
+
+           var pos = ol.proj.fromLonLat([16.3725, 48.208889]);
+var layer;
+if (navigator.onLine) {
+ layer = new ol.layer.Tile({
+  source:   new ol.source.OSM()
+});
+
+}else{
+ layer = new ol.layer.Tile({
+  source:   new ol.source.OSM({
+                                         url: './tiles/{z}/{x}/{y}.png'
+                                         })
+});
+}
+
+
+var map = new ol.Map({
+  layers: [layer],
+  target: 'map',
+  view: new ol.View({
+    center: ol.proj.fromLonLat([116.67061493411417, 5.847063111148614]),
+
+    zoom: 9
+  })
+});
+var marker_el = document.getElementById('marker');
+var marker = new ol.Overlay({
+  position: ol.proj.fromLonLat([116.67061493411417, 5.847063111148614]),
+  positioning: 'center-center',
+  element: marker_el,
+  stopEvent: false,
+  dragging: false
+});
+map.addOverlay(marker);
+
+var dragPan;
+map.getInteractions().forEach(function(interaction){
+  if (interaction instanceof ol.interaction.DragPan) {
+    dragPan = interaction;  
+  }
+});
+
+marker_el.addEventListener('mousedown', function(evt) {
+  dragPan.setActive(false);
+  marker.set('dragging', true);
+  console.info('start dragging');
+});
+
+map.on('pointermove', function(evt) {
+  if (marker.get('dragging') === true) {
+    marker.setPosition(evt.coordinate);
+  }
+});
+
+map.on('pointerup', function(evt) {
+  if (marker.get('dragging') === true) {
+    console.info('stop dragging');
+
+    console.info(ol.proj.toLonLat(evt.coordinate));
+g_send_socket(ol.proj.toLonLat(evt.coordinate));
+    dragPan.setActive(true);
+    marker.set('dragging', false);
+  }
+});
+
+
+function g_send_socket(array) {
+ /* var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("demo").innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("POST", "http://localhost:8081", true);
+  xhttp.send(array[0]+","+array[1] );
+*/
+  ws.send(array[0]+","+array[1] );
+}
+
+ws.onmessage = function (evt) { 
+                          var received_msg = evt.data;
+
+                  coordinate = evt.data;
+                  //alert("Message is received..."+ received_msg);
+
+                  coordinate = coordinate.split(",");
+                  console.info(parseFloat(coordinate[0])+"what");
+                 map.getView().setCenter(ol.proj.transform([parseFloat(coordinate[0]),parseFloat(coordinate[1])], 'EPSG:4326', 'EPSG:3857'));
+                marker.setPosition(ol.proj.transform([parseFloat(coordinate[0]),parseFloat(coordinate[1])], 'EPSG:4326', 'EPSG:3857'));  
+              };
+
+         </script>
+   </body>
+ </html>

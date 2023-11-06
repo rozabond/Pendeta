@@ -1,0 +1,190 @@
+{'neg': 0.0, 'neu': 0.777, 'pos': 0.223, 'compound': 0.3182}
+    naz_miy Gilehhhh babihh????mampu buatkan kek batik jee??????
+{'neg': 0.0, 'neu': 0.69, 'pos': 0.31, 'compound': 0.5423}
+    giginisa_ kek batik tak pernah tak sedap. kecuali tak cukup bahan je
+{'neg': 0.0, 'neu': 0.776, 'pos': 0.224, 'compound': 0.3818}
+    naffaisul_ Kek batik pun tak lepas lagi Tsk tsk tsk ??
+{'neg': 0.0, 'neu': 0.752, 'pos': 0.248, 'compound': 0.6808}
+   Stop la jual kek batik. Dah ramai sgt pondan jual. Yg nak beli nya sorg je. Chocojar pun sama.
+{'neg': 0.0, 'neu': 0.829, 'pos': 0.171, 'compound': 0.4767}
+ cream cheese dngn kek batik sedap kee ???? i cannot imaginee kalau cam whipped cream tu okay lagi
+{'neg': 0.0, 'neu': 0.752, 'pos': 0.248, 'compound': 0.7117}
+ Dua kali beli, dua-dua tak memuaskan tekak. Jadi, PKPB hari pertama, kita buat walaupun haram tak pernah buat kek batik
+{'neg': 0.0, 'neu': 0.549, 'pos': 0.451, 'compound': 0.7635}
+   Kek batikkkk ?? hahaha end up I jadi tak suka kek batik 
+{'neg': 0.0, 'neu': 0.698, 'pos': 0.302, 'compound': 0.3818}
+erra you don't need kek batik ok
+{'neg': 0.0, 'neu': 0.777, 'pos': 0.223, 'compound': 0.3182}
+    naz_miy Gilehhhh babihh????mampu buatkan kek batik jee??????
+{'neg': 0.0, 'neu': 0.69, 'pos': 0.31, 'compound': 0.5423}
+    giginisa_ kek batik tak pernah tak sedap. kecuali tak cukup bahan je
+{'neg': 0.0, 'neu': 0.763, 'pos': 0.237, 'compound': 0.4767}
+   Kek batik done. Tak tahu la apa rasa Tak sedap kali
+{'neg': 0.0, 'neu': 0.776, 'pos': 0.224, 'compound': 0.3818}
+    naffaisul_ Kek batik pun tak lepas lagi Tsk tsk tsk ??
+{'neg': 0.0, 'neu': 0.752, 'pos': 0.248, 'compound': 0.6808}
+   Stop la jual kek batik. Dah ramai sgt pondan jual. Yg nak beli nya sorg je. Chocojar pun sama.
+{'neg': 0.0, 'neu': 0.829, 'pos': 0.171, 'compound': 0.4767}
+ cream cheese dngn kek batik sedap kee ???? i cannot imaginee kalau cam whipped cream tu okay lagi
+{'neg': 0.0, 'neu': 0.752, 'pos': 0.248, 'compound': 0.7117}
+ Dua kali beli, dua-dua tak memuaskan tekak. Jadi, PKPB hari pertama, kita buat walaupun haram tak pernah buat kek batik
+{'neg': 0.0, 'neu': 0.549, 'pos': 0.451, 'compound': 0.7635}
+   Kek batikkkk ?? hahaha end up I jadi tak suka kek batik 
+{'neg': 0.0, 'neu': 0.698, 'pos': 0.302, 'compound': 0.3818}
+erra you don't need kek batik ok
+{'neg': 0.0, 'neu': 0.777, 'pos': 0.223, 'compound': 0.3182}
+    naz_miy Gilehhhh babihh????mampu buatkan kek batik jee??????
+{'neg': 0.0, 'neu': 0.69, 'pos': 0.31, 'compound': 0.5423}
+    giginisa_ kek batik tak pernah tak sedap. kecuali tak cukup bahan je
+{'neg': 0.0, 'neu': 0.776, 'pos': 0.224, 'compound': 0.3818}
+    naffaisul_ Kek batik pun tak lepas lagi Tsk tsk tsk ??
+{'neg': 0.0, 'neu': 0.752, 'pos': 0.248, 'compound': 0.6808}
+   Stop la jual kek batik. Dah ramai sgt pondan jual. Yg nak beli nya sorg je. Chocojar pun sama.
+{'neg': 0.0, 'neu': 0.829, 'pos': 0.171, 'compound': 0.4767}
+ cream cheese dngn kek batik sedap kee ???? i cannot imaginee kalau cam whipped cream tu okay lagi
+{'neg': 0.0, 'neu': 0.752, 'pos': 0.248, 'compound': 0.7117}
+ Dua kali beli, dua-dua tak memuaskan tekak. Jadi, PKPB hari pertama, kita buat walaupun haram tak pernah buat kek batik
+{'neg': 0.0, 'neu': 0.549, 'pos': 0.451, 'compound': 0.7635}
+   Kek batikkkk ?? hahaha end up I jadi tak suka kek batik 
+{'neg': 0.0, 'neu': 0.698, 'pos': 0.302, 'compound': 0.3818}
+erra you don't need kek batik ok
+{'neg': 0.0, 'neu': 0.777, 'pos': 0.223, 'compound': 0.3182}
+    naz_miy Gilehhhh babihh????mampu buatkan kek batik jee??????
+{'neg': 0.0, 'neu': 0.69, 'pos': 0.31, 'compound': 0.5423}
+    giginisa_ kek batik tak pernah tak sedap. kecuali tak cukup bahan je
+{'neg': 0.0, 'neu': 0.776, 'pos': 0.224, 'compound': 0.3818}
+    naffaisul_ Kek batik pun tak lepas lagi Tsk tsk tsk ??
+{'neg': 0.0, 'neu': 0.752, 'pos': 0.248, 'compound': 0.6808}
+   Stop la jual kek batik. Dah ramai sgt pondan jual. Yg nak beli nya sorg je. Chocojar pun sama.
+{'neg': 0.0, 'neu': 0.829, 'pos': 0.171, 'compound': 0.4767}
+ cream cheese dngn kek batik sedap kee ???? i cannot imaginee kalau cam whipped cream tu okay lagi
+{'neg': 0.0, 'neu': 0.752, 'pos': 0.248, 'compound': 0.7117}
+ Dua kali beli, dua-dua tak memuaskan tekak. Jadi, PKPB hari pertama, kita buat walaupun haram tak pernah buat kek batik
+{'neg': 0.0, 'neu': 0.549, 'pos': 0.451, 'compound': 0.7635}
+   Kek batikkkk ?? hahaha end up I jadi tak suka kek batik 
+{'neg': 0.0, 'neu': 0.698, 'pos': 0.302, 'compound': 0.3818}
+erra you don't need kek batik ok
+{'neg': 0.0, 'neu': 0.777, 'pos': 0.223, 'compound': 0.3182}
+    naz_miy Gilehhhh babihh????mampu buatkan kek batik jee??????
+{'neg': 0.0, 'neu': 0.69, 'pos': 0.31, 'compound': 0.5423}
+    giginisa_ kek batik tak pernah tak sedap. kecuali tak cukup bahan je
+{'neg': 0.0, 'neu': 0.776, 'pos': 0.224, 'compound': 0.3818}
+    naffaisul_ Kek batik pun tak lepas lagi Tsk tsk tsk ??
+{'neg': 0.0, 'neu': 0.752, 'pos': 0.248, 'compound': 0.6808}
+   Stop la jual kek batik. Dah ramai sgt pondan jual. Yg nak beli nya sorg je. Chocojar pun sama.
+{'neg': 0.0, 'neu': 0.829, 'pos': 0.171, 'compound': 0.4767}
+ cream cheese dngn kek batik sedap kee ???? i cannot imaginee kalau cam whipped cream tu okay lagi
+{'neg': 0.0, 'neu': 0.752, 'pos': 0.248, 'compound': 0.7117}
+ Dua kali beli, dua-dua tak memuaskan tekak. Jadi, PKPB hari pertama, kita buat walaupun haram tak pernah buat kek batik
+{'neg': 0.0, 'neu': 0.549, 'pos': 0.451, 'compound': 0.7635}
+   Kek batikkkk ?? hahaha end up I jadi tak suka kek batik 
+{'neg': 0.0, 'neu': 0.698, 'pos': 0.302, 'compound': 0.3818}
+erra you don't need kek batik ok
+{'neg': 0.0, 'neu': 0.725, 'pos': 0.275, 'compound': 0.2263}
+ Solihinsalim1 Nasib baik bkn kek lapis
+{'neg': 0.0, 'neu': 0.741, 'pos': 0.259, 'compound': 0.4215}
+Maryam comel lahhh! Kek lipas HAAHHHAAHH kek lapis oiiii
+{'neg': 0.0, 'neu': 0.725, 'pos': 0.275, 'compound': 0.2263}
+ Solihinsalim1 Nasib baik bkn kek lapis
+{'neg': 0.0, 'neu': 0.741, 'pos': 0.259, 'compound': 0.4215}
+Maryam comel lahhh! Kek lipas HAAHHHAAHH kek lapis oiiii
+{'neg': 0.0, 'neu': 0.725, 'pos': 0.275, 'compound': 0.2263}
+ Solihinsalim1 Nasib baik bkn kek lapis
+{'neg': 0.0, 'neu': 0.741, 'pos': 0.259, 'compound': 0.4215}
+Maryam comel lahhh! Kek lipas HAAHHHAAHH kek lapis oiiii
+{'neg': 0.0, 'neu': 0.725, 'pos': 0.275, 'compound': 0.2263}
+ Solihinsalim1 Nasib baik bkn kek lapis
+{'neg': 0.0, 'neu': 0.741, 'pos': 0.259, 'compound': 0.4215}
+Maryam comel lahhh! Kek lipas HAAHHHAAHH kek lapis oiiii
+{'neg': 0.0, 'neu': 0.725, 'pos': 0.275, 'compound': 0.2263}
+ Solihinsalim1 Nasib baik bkn kek lapis
+{'neg': 0.0, 'neu': 0.741, 'pos': 0.259, 'compound': 0.4215}
+Maryam comel lahhh! Kek lipas HAAHHHAAHH kek lapis oiiii
+{'neg': 0.0, 'neu': 0.7, 'pos': 0.3, 'compound': 0.6486}
+Aku sampai muak ye makan kat kl ni sebab dah rindu makanan jb. Nasi lemak pon aku boleh muak. Mee goreng
+{'neg': 0.0, 'neu': 0.577, 'pos': 0.423, 'compound': 0.5267}
+ Nasi lemak pon aku boleh muak. Mee goreng
+{'neg': 0.0, 'neu': 0.7, 'pos': 0.3, 'compound': 0.6486}
+Aku sampai muak ye makan kat kl ni sebab dah rindu makanan jb. Nasi lemak pon aku boleh muak. Mee goreng
+{'neg': 0.0, 'neu': 0.7, 'pos': 0.3, 'compound': 0.6486}
+Aku sampai muak ye makan kat kl ni sebab dah rindu makanan jb. Nasi lemak pon aku boleh muak. Mee goreng
+{'neg': 0.0, 'neu': 0.7, 'pos': 0.3, 'compound': 0.6486}
+Aku sampai muak ye makan kat kl ni sebab dah rindu makanan jb. Nasi lemak pon aku boleh muak. Mee goreng
+{'neg': 0.0, 'neu': 0.7, 'pos': 0.3, 'compound': 0.6486}
+Aku sampai muak ye makan kat kl ni sebab dah rindu makanan jb. Nasi lemak pon aku boleh muak. Mee goreng
+{'neg': 0.0, 'neu': 0.7, 'pos': 0.3, 'compound': 0.6486}
+Aku sampai muak ye makan kat kl ni sebab dah rindu makanan jb. Nasi lemak pon aku boleh muak. Mee goreng
+{'neg': 0.0, 'neu': 0.7, 'pos': 0.3, 'compound': 0.6486}
+Aku sampai muak ye makan kat kl ni sebab dah rindu makanan jb. Nasi lemak pon aku boleh muak. Mee goreng
+{'neg': 0.0, 'neu': 0.833, 'pos': 0.167, 'compound': 0.1027}
+Nasi lemak pon aku muak dan Mee goreng
+{'neg': 0.0, 'neu': 0.909, 'pos': 0.091, 'compound': 0.0772}
+  Takde yg jual nasi ayam penyet homemade area bangii kee kalau ade mention pls
+{'neg': 0.0, 'neu': 0.765, 'pos': 0.235, 'compound': 0.5574}
+ Nasi ayam penyet medan uitm rembau boleh delivery tak? Teringin lah. Tak tahu buat sambal dia tu
+{'neg': 0.0, 'neu': 0.909, 'pos': 0.091, 'compound': 0.0772}
+  Takde yg jual nasi ayam penyet homemade area bangii kee kalau ade mention pls
+{'neg': 0.0, 'neu': 0.765, 'pos': 0.235, 'compound': 0.5574}
+ Nasi ayam penyet medan uitm rembau boleh delivery tak? Teringin lah. Tak tahu buat sambal dia tu
+{'neg': 0.0, 'neu': 0.909, 'pos': 0.091, 'compound': 0.0772}
+  Takde yg jual nasi ayam penyet homemade area bangii kee kalau ade mention pls
+{'neg': 0.0, 'neu': 0.765, 'pos': 0.235, 'compound': 0.5574}
+ Nasi ayam penyet medan uitm rembau boleh delivery tak? Teringin lah. Tak tahu buat sambal dia tu
+{'neg': 0.0, 'neu': 0.909, 'pos': 0.091, 'compound': 0.0772}
+  Takde yg jual nasi ayam penyet homemade area bangii kee kalau ade mention pls
+{'neg': 0.0, 'neu': 0.765, 'pos': 0.235, 'compound': 0.5574}
+ Nasi ayam penyet medan uitm rembau boleh delivery tak? Teringin lah. Tak tahu buat sambal dia tu
+{'neg': 0.0, 'neu': 0.909, 'pos': 0.091, 'compound': 0.0772}
+  Takde yg jual nasi ayam penyet homemade area bangii kee kalau ade mention pls
+{'neg': 0.0, 'neu': 0.765, 'pos': 0.235, 'compound': 0.5574}
+ Nasi ayam penyet medan uitm rembau boleh delivery tak? Teringin lah. Tak tahu buat sambal dia tu
+{'neg': 0.0, 'neu': 0.694, 'pos': 0.306, 'compound': 0.5267}
+ hamdibadrul Try roti canai Awe. Tapi aku tak minat sbb berminyak siket
+{'neg': 0.0, 'neu': 0.721, 'pos': 0.279, 'compound': 0.4767}
+ eynarose_vs air milo i okey, roti canai i tkleh hahahahahahahhahah
+{'neg': 0.0, 'neu': 0.615, 'pos': 0.385, 'compound': 0.3612}
+ criesalism ROTI CANAI KAYA BATUUU
+{'neg': 0.0, 'neu': 0.701, 'pos': 0.299, 'compound': 0.5267}
+semalam 4 keping roti canai aku makan eh satu keping mana cukup ?? pastu pagi ni makan lempeng pulak uwu enak.
+{'neg': 0.0, 'neu': 0.92, 'pos': 0.08, 'compound': 0.0772}
+ domycw Kat kg baru ada.. kedai pak hassan.. yg beratur ramai-1 tu tunggu roti canai je..
+{'neg': 0.0, 'neu': 0.694, 'pos': 0.306, 'compound': 0.5267}
+ hamdibadrul Try roti canai Awe. Tapi aku tak minat sbb berminyak siket
+{'neg': 0.0, 'neu': 0.721, 'pos': 0.279, 'compound': 0.4767}
+ eynarose_vs air milo i okey, roti canai i tkleh hahahahahahahhahah
+{'neg': 0.0, 'neu': 0.615, 'pos': 0.385, 'compound': 0.3612}
+ criesalism ROTI CANAI KAYA BATUUU
+{'neg': 0.0, 'neu': 0.701, 'pos': 0.299, 'compound': 0.5267}
+semalam 4 keping roti canai aku makan eh satu keping mana cukup ?? pastu pagi ni makan lempeng pulak uwu enak.
+{'neg': 0.0, 'neu': 0.92, 'pos': 0.08, 'compound': 0.0772}
+ domycw Kat kg baru ada.. kedai pak hassan.. yg beratur ramai-1 tu tunggu roti canai je..
+{'neg': 0.0, 'neu': 0.694, 'pos': 0.306, 'compound': 0.5267}
+ hamdibadrul Try roti canai Awe. Tapi aku tak minat sbb berminyak siket
+{'neg': 0.0, 'neu': 0.721, 'pos': 0.279, 'compound': 0.4767}
+ eynarose_vs air milo i okey, roti canai i tkleh hahahahahahahhahah
+{'neg': 0.0, 'neu': 0.615, 'pos': 0.385, 'compound': 0.3612}
+ criesalism ROTI CANAI KAYA BATUUU
+{'neg': 0.0, 'neu': 0.701, 'pos': 0.299, 'compound': 0.5267}
+semalam 4 keping roti canai aku makan eh satu keping mana cukup ?? pastu pagi ni makan lempeng pulak uwu enak.
+{'neg': 0.0, 'neu': 0.92, 'pos': 0.08, 'compound': 0.0772}
+ domycw Kat kg baru ada.. kedai pak hassan.. yg beratur ramai-1 tu tunggu roti canai je..
+{'neg': 0.0, 'neu': 0.694, 'pos': 0.306, 'compound': 0.5267}
+ hamdibadrul Try roti canai Awe. Tapi aku tak minat sbb berminyak siket
+{'neg': 0.0, 'neu': 0.721, 'pos': 0.279, 'compound': 0.4767}
+ eynarose_vs air milo i okey, roti canai i tkleh hahahahahahahhahah
+{'neg': 0.0, 'neu': 0.615, 'pos': 0.385, 'compound': 0.3612}
+ criesalism ROTI CANAI KAYA BATUUU
+{'neg': 0.0, 'neu': 0.701, 'pos': 0.299, 'compound': 0.5267}
+semalam 4 keping roti canai aku makan eh satu keping mana cukup ?? pastu pagi ni makan lempeng pulak uwu enak.
+{'neg': 0.0, 'neu': 0.92, 'pos': 0.08, 'compound': 0.0772}
+ domycw Kat kg baru ada.. kedai pak hassan.. yg beratur ramai-1 tu tunggu roti canai je..
+{'neg': 0.0, 'neu': 0.694, 'pos': 0.306, 'compound': 0.5267}
+ hamdibadrul Try roti canai Awe. Tapi aku tak minat sbb berminyak siket
+{'neg': 0.0, 'neu': 0.721, 'pos': 0.279, 'compound': 0.4767}
+ eynarose_vs air milo i okey, roti canai i tkleh hahahahahahahhahah
+{'neg': 0.0, 'neu': 0.615, 'pos': 0.385, 'compound': 0.3612}
+ criesalism ROTI CANAI KAYA BATUUU
+{'neg': 0.0, 'neu': 0.701, 'pos': 0.299, 'compound': 0.5267}
+semalam 4 keping roti canai aku makan eh satu keping mana cukup ?? pastu pagi ni makan lempeng pulak uwu enak.
+{'neg': 0.0, 'neu': 0.92, 'pos': 0.08, 'compound': 0.0772}
+ domycw Kat kg baru ada.. kedai pak hassan.. yg beratur ramai-1 tu tunggu roti canai je..
