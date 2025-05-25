@@ -42,7 +42,7 @@ public class initialization_f_family03_info_button {
     
     public  void i_initialize(){
       
-        f_info_button_01_B_C_B_A.setPreferredSize(new Dimension(70,30));
+        f_info_button_01_B_C_B_A.setPreferredSize(new Dimension(100,35));
         //b.setBounds(0, 0,p.getWidth() , p.getHeight());
         //how.setAlignmentX(Component.RIGHT_ALIGNMENT+100);  
         f_info_button_01_B_C_B_A.addActionListener(new ActionListener(){  

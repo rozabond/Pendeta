@@ -80,10 +80,10 @@ public class initialization {
   public static int PanelMapWidth = initialization.screenWidth- initialization.screenWidth/10 ;
   
   public static int midfamilypanelHeight = initialization.screenHeight-initialization.screenHeight/7;
-  public static int midfamilypanelWidth = initialization.screenWidth- initialization.screenWidth/2  - initialization.screenWidth/8 ;
+  public static int midfamilypanelWidth = initialization.screenWidth- initialization.screenWidth/2  - (initialization.screenWidth/8);
   
   public static int familypanelHeight = initialization.screenHeight-initialization.screenHeight/7;
-  public static int familypanelWidth = initialization.screenWidth- initialization.screenWidth/2-initialization.screenWidth/5 ;
+  public static int familypanelWidth = initialization.screenWidth- initialization.screenWidth/2-initialization.screenWidth/5 +60;
   
   //to put things to the right
   public static int PanelBounds = initialization.screenWidth-initialization.screenWidth/4;
@@ -209,10 +209,10 @@ public class initialization {
   public static void pane_container_dpt() {
          //initialization.pane_container.setLayout(new GridLayout(0,2,20,10));
         pane_container.setLayout(new GridLayout(0,1,20,10));
-        pane_container.setPreferredSize(new Dimension(familypanelWidth+250,midfamilypanelHeight));
+        pane_container.setPreferredSize(new Dimension(familypanelWidth,midfamilypanelHeight));
         //jLayeredPane1.setSize(new Dimension(jLayeredPane2.getWidth(),jLayeredPane2.getHeight()));
         // jLayeredPane1.setSize(jLayeredPane2.getWidth(),jLayeredPane2.getHeight());
-        pane_container.setBounds(0, 0, familypanelWidth+250, midfamilypanelHeight);
+        pane_container.setBounds(0, 0, familypanelWidth, midfamilypanelHeight);
         pane_container.setBackground(new Color(0,0,0,1));
         container.setOpaque(false); // background of parent will be painted first
        // container.setBackground(new Color(0,0,0,1));

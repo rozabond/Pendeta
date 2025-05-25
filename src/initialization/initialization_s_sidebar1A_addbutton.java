@@ -79,7 +79,7 @@ public initialization_s_sidebar1A_addbutton(){
                          
                         
                             if("FALSE".equals(indicator)) {
-                        initialization.pane_container.setBounds(0, 0, initialization.familypanelWidth+250, initialization.midfamilypanelHeight);
+                        initialization.pane_container.setBounds(0, 0, initialization.familypanelWidth , initialization.midfamilypanelHeight);
                         initialization.pane_container.repaint();
                         initialization.pane_container.revalidate();
                             }

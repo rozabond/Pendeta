@@ -24,6 +24,7 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.SpringLayout;
 import javax.swing.SwingConstants;
+import java.awt.GridLayout;
 
 /**
  *
@@ -121,36 +122,41 @@ public class f_family03_info {
     
      
      public void i_initialize_p(){
-     p.setPreferredSize(new Dimension(initialization.e_container.getWidth(),initialization.e_container.getHeight()/2-50));
+     p.setPreferredSize(new Dimension(initialization.e_container.getWidth(),initialization.e_container.getHeight()+100));
      p.setBounds(0, 0, initialization.e_container.getWidth(), initialization.e_container.getHeight()/2-50);
      }
      
- public JPanel g_Form(JPanel Panel_size,Object Info[]) {
-            i_initialize_p();
-         String[] labels = {"Ic: ", "Tarikh_lahir: ", "Agama_Asal: ","Agama_Terkini:","Tarikh_dibaptis:","Alamat_terkini:","Nombor_tel:"};
-         int numPairs = labels.length;
-         
-         for (int i = 0; i < numPairs; i++) {
-            JLabel l = new JLabel(labels[i].replaceAll("_"," "), JLabel.TRAILING);
-            p.add(l);
-            JTextField textField = new JTextField(10);
+ public JPanel g_Form(JPanel Panel_size, Object Info[]) {
+        i_initialize_p();
+        String[] labels = {"Ic: ", "Tarikh_lahir: ", "Agama_Asal: ", "Agama_Terkini:", "Tarikh_dibaptis:", "Alamat_terkini:", "Nombor_tel:"};
+        int numPairs = labels.length;
+        
+        // Set up GridLayout with 1 column and dynamic rows
+        p.setLayout(new GridLayout(numPairs, 1, 5, 5));
+        
+        for (int i = 0; i < numPairs; i++) {
+            // Create a panel for each label-textfield pair
+            JPanel pairPanel = new JPanel(new GridLayout(2, 1, 0, 0));
+            pairPanel.setOpaque(false);
             
-            textField.setText((String) Info[i+1].toString().replaceAll("_","-").replaceAll("@","-"));
+            // Create and style the label
+            JLabel l = new JLabel(labels[i].replaceAll("_", " "), JLabel.LEADING);
+            l.setForeground(Color.WHITE);
+            pairPanel.add(l);
+            
+            // Create and style the text field
+            JTextField textField = new JTextField(10);
+            textField.setText((String) Info[i+1].toString().replaceAll("_", "-").replaceAll("@", "-"));
+            textField.setPreferredSize(new Dimension(p.getWidth(), 40));
             l.setLabelFor(textField);
-            p.add(textField);
+            pairPanel.add(textField);
+            
+            // Add the pair panel to the main panel
+            p.add(pairPanel);
         }
         
-          SpringLayout layout = new SpringLayout();
-      
-         SpringUtilities.makeCompactGrid(p,
-                                        numPairs, 2, //rows, cols
-                                        6, 6,        //initX, initY
-                                        6, 6);       //xPad, yPad 
-         
-          //p.setSize(new Dimension(Panel_size.getWidth(),Panel_size.getHeight()/2-300));
-       // p.setBackground(new Color(255,255,255));
         return p;
-}
+    }
  
 
 public Object[] d_display_information(String Nama) {

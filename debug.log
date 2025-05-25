@@ -14772,3 +14772,123 @@ C:\fakepath(132,32-88): warning X3571: pow(f, e) will not work for negative f, u
 [0128/135835.576:INFO:CONSOLE(399)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com.my/maps/@4.140634,109.6181485,6z (399)
 [0128/135835.576:INFO:CONSOLE(399)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com.my/maps/@4.140634,109.6181485,6z (399)
 [0128/135835.576:INFO:CONSOLE(399)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com.my/maps/@4.140634,109.6181485,6z (399)
+[0525/221307.869:INFO:CONSOLE(991)] "[Report Only] Refused to compile or instantiate WebAssembly module because 'wasm-eval' is not an allowed source of script in the following Content Security Policy directive: "script-src 'nonce-mzVa09Cj6a1IkTQa7PqDyQ' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:".
+", source: https://www.google.com.my/maps/_/js/k=maps.m.en.Zypu32JP3I4.2019.O/m=sc2,per,mo,lp,ti,ds,stx,dwi,enr,bom,b/am=4AAASgEo/rt=j/d=1/rs=ACT90oHSoOSMZgLYGJumn8A56GJzzwZIqA?wli=m.yHjz9YoE50o.loadSv.O%3A%3Bm.G9-BoNgG9Js.mapcore.O%3A%3B&cb=M (991)
+[0525/221309.439:INFO:CONSOLE(397)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com.my/maps/@4.140634,109.6181485,6z (397)
+[0525/221309.440:INFO:CONSOLE(397)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com.my/maps/@4.140634,109.6181485,6z (397)
+[0525/221309.441:INFO:CONSOLE(397)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com.my/maps/@4.140634,109.6181485,6z (397)
+[0525/221309.442:INFO:CONSOLE(397)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com.my/maps/@4.140634,109.6181485,6z (397)
+[0525/221311.109:INFO:CONSOLE(0)] "Unrecognized Content-Security-Policy directive 'require-trusted-types-for'.
+", source: https://feedback-pa.clients6.google.com/static/proxy.html?usegapi=1&jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.nJpyt-fjzo8.O%2Fd%3D1%2Frs%3DAHpOoo9fTqXSCmwMDsu9FH68l5KSqr6MBg%2Fm%3D__features__#parent=https%3A%2F%2Fwww.google.com.my&rpctoken=292936877 (0)
+[0525/221312.623:INFO:CONSOLE(0)] "Unrecognized Content-Security-Policy directive 'require-trusted-types-for'.
+", source: https://feedback-pa.clients6.google.com/static/proxy.html?usegapi=1&jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.gapi.en.citSWp3NP7U.O%2Fd%3D1%2Frs%3DAHpOoo9xL6HUJcSIDSbTUlNBOsamhv5RMA%2Fm%3D__features__#parent=https%3A%2F%2Fwww.google.com.my&rpctoken=681335633 (0)
+[0525/221313.511:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 1
+[0525/221313.844:INFO:CONSOLE(177)] "116.18996307864542what", source: http://localhost:8080/ (177)
+[0525/221317.494:INFO:CONSOLE(136)] "start dragging", source: http://localhost:8080/ (136)
+[0525/221320.884:INFO:CONSOLE(147)] "stop dragging", source: http://localhost:8080/ (147)
+[0525/221320.885:INFO:CONSOLE(149)] "116.63667158152049,5.977105027356856", source: http://localhost:8080/ (149)
+[0525/221320.891:INFO:CONSOLE(177)] "116.63667158152049what", source: http://localhost:8080/ (177)
+[0525/221323.194:INFO:CONSOLE(136)] "start dragging", source: http://localhost:8080/ (136)
+[0525/221323.791:INFO:CONSOLE(147)] "stop dragging", source: http://localhost:8080/ (147)
+[0525/221323.792:INFO:CONSOLE(149)] "116.65682175237363,5.987298379740636", source: http://localhost:8080/ (149)
+[0525/221323.794:INFO:CONSOLE(177)] "116.65682175237363what", source: http://localhost:8080/ (177)
+[0525/221341.168:INFO:CONSOLE(991)] "[Report Only] Refused to compile or instantiate WebAssembly module because 'wasm-eval' is not an allowed source of script in the following Content Security Policy directive: "script-src 'nonce-OdFnLTIU0_DHEHqYff7sPQ' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:".
+", source: https://www.google.com/maps/_/js/k=maps.m.en.Zypu32JP3I4.2019.O/m=sc2,per,mo,lp,ep,ti,ds,stx,dwi,enr,pwd,dw,plm,log,b/am=4AAASgEo/rt=j/d=1/rs=ACT90oHSoOSMZgLYGJumn8A56GJzzwZIqA?wli=m.yHjz9YoE50o.loadSv.O%3A%3Bm.G9-BoNgG9Js.mapcore.O%3A%3B&cb=M (991)
+[0525/221342.004:INFO:CONSOLE(397)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com/maps?&z=8&mrt=all&t=m&q=5.987298379740636+116.65682175237363 (397)
+[0525/221342.005:INFO:CONSOLE(397)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com/maps?&z=8&mrt=all&t=m&q=5.987298379740636+116.65682175237363 (397)
+[0525/221342.006:INFO:CONSOLE(397)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com/maps?&z=8&mrt=all&t=m&q=5.987298379740636+116.65682175237363 (397)
+[0525/221342.006:INFO:CONSOLE(397)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com/maps?&z=8&mrt=all&t=m&q=5.987298379740636+116.65682175237363 (397)
+[0525/221342.562:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 43
+[0525/221342.562:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 45
+[0525/221342.563:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 61
+[0525/221342.563:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 51
+[0525/221342.573:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 53
+[0525/221342.579:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 59
+[0525/221342.579:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 55
+[0525/221342.581:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 49
+[0525/221342.585:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 47
+[0525/221342.587:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 57
+[0525/221347.324:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 371
+[0525/221347.326:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 367
+[0525/221347.330:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 373
+[0525/221347.331:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 377
+[0525/221347.343:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 365
+[0525/221347.345:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 375
+[0525/221347.351:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 379
+[0525/221347.352:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 381
+[0525/221347.375:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 385
+[0525/221347.386:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 387
+[0525/221347.388:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 389
+[0525/221347.404:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 391
+[0525/221347.416:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 383
+[0525/221347.421:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 393
+[0525/221348.224:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 507
+[0525/221348.225:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 509
+[0525/221348.226:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 505
+[0525/221348.231:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 493
+[0525/221348.264:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 497
+[0525/221348.265:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 499
+[0525/221348.265:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 511
+[0525/221348.290:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 521
+[0525/221348.291:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 513
+[0525/221348.293:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 503
+[0525/221348.301:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 519
+[0525/221348.305:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 501
+[0525/221348.313:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 515
+[0525/221348.322:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 517
+[0525/221348.503:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 553
+[0525/221401.161:INFO:CONSOLE(991)] "[Report Only] Refused to compile or instantiate WebAssembly module because 'wasm-eval' is not an allowed source of script in the following Content Security Policy directive: "script-src 'nonce-2KVhXFSmiBbAvsGySi-UEw' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:".
+", source: https://www.google.com/maps/_/js/k=maps.m.en.Zypu32JP3I4.2019.O/m=sc2,per,mo,lp,ep,ti,ds,stx,dwi,enr,pwd,dw,plm,log,b/am=4AAASgEo/rt=j/d=1/rs=ACT90oHSoOSMZgLYGJumn8A56GJzzwZIqA?wli=m.yHjz9YoE50o.loadSv.O%3A%3Bm.G9-BoNgG9Js.mapcore.O%3A%3B&cb=M (991)
+[0525/221401.934:INFO:CONSOLE(397)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com/maps?&z=8&mrt=all&t=m&q=5.987298379740636+116.65682175237363 (397)
+[0525/221401.935:INFO:CONSOLE(397)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com/maps?&z=8&mrt=all&t=m&q=5.987298379740636+116.65682175237363 (397)
+[0525/221401.936:INFO:CONSOLE(397)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com/maps?&z=8&mrt=all&t=m&q=5.987298379740636+116.65682175237363 (397)
+[0525/221402.536:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 679
+[0525/221402.591:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 683
+[0525/221402.592:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 681
+[0525/221402.592:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 691
+[0525/221402.593:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 689
+[0525/221402.593:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 693
+[0525/221402.593:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 687
+[0525/221402.594:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 685
+[0525/221402.594:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 697
+[0525/221402.594:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 695
+[0525/221422.344:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 909
+[0525/221422.345:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 919
+[0525/223845.873:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0525/223850.888:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0525/223855.899:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0525/223900.926:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0525/223905.938:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0525/223910.958:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0525/223915.974:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0525/223920.992:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0525/223926.018:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0525/223931.036:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0525/223936.057:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0525/223941.071:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0525/223946.081:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0525/223951.100:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0525/223956.116:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0525/224001.126:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0525/224006.132:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0525/224011.146:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0525/224016.166:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0525/224021.186:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0525/224026.221:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0525/224031.283:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0525/224036.303:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0525/224041.318:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0525/224046.333:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0525/224810.218:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0525/224815.261:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0525/224820.284:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0525/224825.295:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0525/230612.371:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0525/230758.503:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0525/230803.517:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0525/230808.530:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0525/230813.551:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0525/230818.564:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0525/230823.577:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0525/230828.596:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0525/230833.609:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.

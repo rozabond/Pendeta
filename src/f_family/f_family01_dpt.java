@@ -52,7 +52,7 @@ import s_sidebar2.s_sidebar2A;
  */
 public class f_family01_dpt {
         
-     public JPanel jp_people = new JPanel(new GridLayout(0,3,20,10)){
+     public JPanel jp_people = new JPanel(new GridLayout(0,2,20,10)){
     protected void paintComponent(Graphics g)
     {
        super.paintComponent(g);
@@ -268,9 +268,10 @@ public class f_family01_dpt {
                             f_family02 family = new f_family02();
                             
                             //initialization.pane_container();
-                            initialization.pane_container.setLayout(new GridLayout(0,1,20,10));
+                           // initialization.pane_container.setLayout(new GridLayout(0,1,20,10));
                             initialization.pane_container.add(family.return_scroll_pane());
-                            initialization.pane_container.setBounds(0, 0, initialization.familypanelWidth, initialization.familypanelHeight);
+                            int f_family02_side_people_2_width_to_not_block_people = 100;
+                            initialization.pane_container.setBounds(0, 0, initialization.familypanelWidth-f_family02_side_people_2_width_to_not_block_people, initialization.familypanelHeight);
                             initialization.pane_container.repaint();
                             initialization.pane_container.revalidate();
                     

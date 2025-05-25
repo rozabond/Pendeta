@@ -44,6 +44,9 @@ import javax.swing.JLabel;
 import javax.swing.SpringLayout;
 import javax.swing.SwingConstants;
 import s_sidebar2.s_sidebar1A_addbutton;
+import java.awt.GridBagLayout;
+import java.awt.GridBagConstraints;
+import java.awt.Insets;
 
 
 
@@ -56,7 +59,7 @@ public class f_family02 {
    c_connection_family orang_connection = new c_connection_family();
       
     String Orang = initialization.Orang;
-    JPanel side_people_2 = new JPanel(new GridLayout(0,2,20,10)){
+    JPanel side_people_2 = new JPanel(){
     protected void paintComponent(Graphics g)
     {
         g.setColor( getBackground() );
@@ -83,17 +86,16 @@ public class f_family02 {
         side_people_2_bar();
         side_people_2_add_familymember(side_people_2);
         f_chrome_decisionmakeover();
-       
+    
        // G_testConnection();
     }
     
   
     
     private void side_people_2_bar(){
-        side_people_2.setSize(initialization.familypanelWidth+50, initialization.midfamilypanelHeight);
-        side_people_2.setBounds(20,20,initialization.familypanelWidth+50,initialization.midfamilypanelHeight);
+        side_people_2.setSize(initialization.familypanelWidth, initialization.midfamilypanelHeight);
+        side_people_2.setBounds(20,20,initialization.familypanelWidth,initialization.midfamilypanelHeight);
         side_people_2.setOpaque(false);
-        side_people_2.setBackground(new Color(0,0,0));
         
         Border blackline = BorderFactory.createEmptyBorder(30, 30, 30, 30);
         side_people_2.setBorder(blackline);
@@ -130,11 +132,7 @@ public class f_family02 {
     }
     
     private void side_people_2_add_familymember(JPanel penentu){
-          f_family04_add add_button = new f_family04_add();
-            
-            penentu.add(add_button.add_button(penentu));
-            penentu.repaint();
-            penentu.revalidate();  
+    
         
         initialization.check_number = display_number_anggota_rumah(Orang);     
   
@@ -164,6 +162,7 @@ public class f_family02 {
            Object myObject[] = {resultSet.pop().replaceAll("_", " ").concat("_").concat("leader")};                   
            Penentu.add(side_bar_add(Penentu,myObject));
 }
+
     Penentu.repaint();
     Penentu.revalidate();
     }
@@ -305,6 +304,7 @@ private JPanel side_bar_add(JPanel Panel_size, Object myObject[]) {
                         //for delete() function
                         initialization.second_name = Orang;
                         
+//26.5.2025 sambung                      
                         f_family03_info family = new f_family03_info();
                         f_family03_info_button family_delete = new f_family03_info_button();
                         
@@ -315,11 +315,25 @@ private JPanel side_bar_add(JPanel Panel_size, Object myObject[]) {
                          initialization.e_container();
                          //initialization.e_container.setLayout(new BoxLayout(initialization.e_container,BoxLayout.PAGE_AXIS));
                          //initialization.e_container.setLayout(new BorderLayout());
-                         initialization.e_container.setLayout(new BoxLayout(initialization.e_container, BoxLayout.PAGE_AXIS));
-                         initialization.e_container.setBounds(initialization.e_PanelBounds+25, 0, initialization.e_containerWidth, initialization.e_containerHeight);
-                         initialization.e_container.add(family.g_appear_box(initialization.e_container,Orang),BorderLayout.CENTER);
-                         initialization.e_container.add(family.g_Form(initialization.e_container,family.d_display_information(Orang)),BorderLayout.PAGE_END);
-                         initialization.e_container.add(family_delete.s_f_family03_info_p());
+                         initialization.e_container.setLayout(new GridBagLayout());
+                         GridBagConstraints gbc = new GridBagConstraints();
+                         initialization.e_container.setBounds(initialization.e_PanelBounds, 0, initialization.e_containerWidth, initialization.e_containerHeight);
+                         
+                         // Add the form at the top
+                         gbc.gridx = 0;
+                         gbc.gridy = 0;
+                         gbc.weightx = 1.0;
+                         gbc.weighty = 1.0;
+                         gbc.fill = GridBagConstraints.BOTH;
+                         gbc.insets = new Insets(0, 0,0, 0); // Add bottom margin
+                         initialization.e_container.add(family.g_Form(initialization.e_container,family.d_display_information(Orang)), gbc);
+                         
+                         // Add the delete button panel below
+                         gbc.gridy = 1;
+                         gbc.weighty = 0.0; // Don't stretch vertically
+                         gbc.insets = new Insets(0, 0, 0, 0); // Reset insets
+                         initialization.e_container.add(family_delete.s_f_family03_info_p(), gbc);
+                         
                          initialization.e_container.repaint();
                          initialization.e_container.revalidate();
                          initialization.e_container.setVisible(true);
@@ -375,7 +389,13 @@ private JPanel side_bar_add(JPanel Panel_size, Object myObject[]) {
                        }
                        
                        
+                       SpringLayout layout = new SpringLayout();
+                       Panel_size.setLayout( layout);
                        
+  layout.putConstraint(SpringLayout.VERTICAL_CENTER, hai, -5, SpringLayout.VERTICAL_CENTER, Panel_size);  
+  layout.putConstraint(SpringLayout.HORIZONTAL_CENTER, hai, 0, SpringLayout.HORIZONTAL_CENTER, Panel_size); 
+                        
+
     
                         // JLabelstring.setBounds(0,300, JLabelstring.getWidth(), JLabelstring.getHeight());
                          // hai.add(hai_second,BorderLayout.PAGE_START);

@@ -58,148 +58,82 @@ public class s_sidebar1Aa_addbutton {
       List<JTextField> lists = new ArrayList<JTextField>();
     
      public JPanel add_button(JPanel Panel_size) {
-                        
-                        
-                        JPanel hai = new JPanel();
-                        hai.setBounds(0,0,Panel_size.getWidth()/2,Panel_size.getHeight()/3-Panel_size.getHeight()/19);
-                        hai.setBackground( new Color(255, 255, 255, 1));
-                        hai.setOpaque(false);
-                        hai.setSize(Panel_size.getWidth()/2, Panel_size.getHeight()/3-Panel_size.getHeight()/19);
-                        
-                        Border blackline = BorderFactory.createMatteBorder(0, 0,2, 0, new Color(5,217,229));
-                        hai.setBorder(blackline);
-                  
-                        
-                  
-                        JPanel hai_second = new JPanel();
-                        System.out.println("Jlayered"+Panel_size.getWidth()/4);
-                        //hai_second.setPreferredSize(new Dimension(30,hai.getHeight()-hai.getHeight()/10));
-                        hai_second.setBounds(0,0,hai.getWidth()-50,hai.getHeight()-hai.getHeight()/10);                   
-                       // hai_second.setBackground( new Color(0, 0, 0, 70));
-                        hai_second.setOpaque(false);
-                      
-               
-                       // JLabel JLabelstring = new JLabel(intern,SwingConstants.CENTER);
-                       // JLabelstring.setForeground(Color.white);
-                        //ImageIcon imageIcon = new ImageIcon(new ImageIcon(getClass().getResource("/image/plus.png")).getImage().getScaledInstance(hai_second.getWidth(), hai_second.getHeight(), Image.SCALE_DEFAULT));      
-                        
-                        f_family_g_add_button_image_JButton b = new f_family_g_add_button_image_JButton();
+        JPanel hai = new JPanel();
+        hai.setBounds(0, 0, Panel_size.getWidth()/2, Panel_size.getHeight()/3-Panel_size.getHeight()/19);
+        hai.setBackground(new Color(255, 255, 255, 1));
+        hai.setOpaque(false);
+        hai.setSize(Panel_size.getWidth()/2, Panel_size.getHeight()/3-Panel_size.getHeight()/19);
+        
+        Border blackline = BorderFactory.createMatteBorder(0, 0, 2, 0, new Color(5, 217, 229));
+        hai.setBorder(blackline);
+        
+        JButton addButton = new JButton("+ Add People");
+        addButton.setFont(addButton.getFont().deriveFont(15f));
+        addButton.setPreferredSize(new Dimension(150, 40));
+        addButton.setBackground(new Color(0, 120, 212));
+        addButton.setForeground(Color.WHITE);
+        addButton.setFocusPainted(false);
+        addButton.setBorderPainted(false);
+        
+        addButton.addMouseListener(new MouseListener() {
+            @Override
+            public void mouseEntered(MouseEvent e) {
+                addButton.setCursor(new Cursor(Cursor.HAND_CURSOR));
+                addButton.setBackground(new Color(0, 100, 180));
+            }
+
+            @Override
+            public void mouseExited(MouseEvent e) {
+                addButton.setCursor(new Cursor(Cursor.DEFAULT_CURSOR));
+                addButton.setBackground(new Color(0, 120, 212));
+            }
+
+            @Override
+            public void mouseClicked(MouseEvent me) {}
+
+            @Override
+            public void mousePressed(MouseEvent me) {}
+
+            @Override
+            public void mouseReleased(MouseEvent me) {}
+        });
+
+        addButton.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                //in order to make the container move left a bit
+                initialization.container.setBounds(initialization.PanelBounds+80, 0, Containerpanelwidth, PanelHeight);
+                initialization.container.repaint();
+                initialization.container.revalidate();
                 
-                        b.setPreferredSize(new Dimension(hai_second.getWidth()-65, hai_second.getHeight()-10));
-                        //b.setName(intern);
-                         b.setOpaque(false);
-                 
-                        b.setBackground(new Color(0,0,0,0));
-                          b.addMouseListener(new MouseListener() {
-                    @Override
-                    public void mouseEntered(MouseEvent e) {
-                        b.setCursor(new Cursor(Cursor.HAND_CURSOR));
-                    
-                    }
+                //in order to make the main container move right a bit
+                if("FALSE".equals(indicator)) {
+                    initialization.pane_container.setBounds(0, 0, initialization.familypanelWidth - 20, initialization.midfamilypanelHeight);
+                    initialization.pane_container.repaint();
+                    initialization.pane_container.revalidate();
+                }
+                
+                initialization.e_container.removeAll();
+                initialization.e_container_1();
+                initialization.e_container.setLayout(new BoxLayout(initialization.e_container, BoxLayout.PAGE_AXIS)); 
+                
+                initialization.e_container.add(appear_add_box(initialization.e_container));
+                initialization.e_container.add(Add_Form(initialization.e_container));
+                initialization.e_container.add(Add_jackButton(initialization.e_container));
+                initialization.e_container.repaint();
+                initialization.e_container.revalidate();
+                initialization.e_container.setVisible(true);
+            }
+        });
 
-                    @Override
-                    public void mouseExited(MouseEvent e) {
-                        b.setCursor(new Cursor(Cursor.HAND_CURSOR));
-                    }
-
-                            @Override
-                            public void mouseClicked(MouseEvent me) {
-                                 //To change body of generated methods, choose Tools | Templates.
-                            }
-
-                            @Override
-                            public void mousePressed(MouseEvent me) {
-                               //To change body of generated methods, choose Tools | Templates.
-                            }
-
-                            @Override
-                            public void mouseReleased(MouseEvent me) {
-                                //To change body of generated methods, choose Tools | Templates.
-                            }
-                });      
-                        b.addActionListener(new ActionListener(){  
-                        public void actionPerformed(ActionEvent e){ 
-                            
-                       
-                               JButton o = (JButton)e.getSource();
-                        
-                       //in order to make the container move left a bit
-                         initialization.container.setBounds(initialization.PanelBounds+80, 0, Containerpanelwidth, PanelHeight);
-                         initialization.container.repaint();
-                         initialization.container.revalidate();
-                         //initialization.pane_container.setPreferredSize(new Dimension(familypanelWidth+250,midfamilypanelHeight));
-        //jLayeredPane1.setSize(new Dimension(jLayeredPane2.getWidth(),jLayeredPane2.getHeight()));
-        // jLayeredPane1.setSize(jLayeredPane2.getWidth(),jLayeredPane2.getHeight());
-                       //in order to make the main container move right a bit
-                        if("FALSE".equals(indicator)) {
-                        initialization.pane_container.setBounds(0, 0, initialization.familypanelWidth, initialization.midfamilypanelHeight);
-                        initialization.pane_container.repaint();
-                        initialization.pane_container.revalidate();
-                        }
-                         
-                         initialization.e_container.removeAll();
-                         initialization.e_container_1();
-                         initialization.e_container.setLayout(new BoxLayout(initialization.e_container, BoxLayout.PAGE_AXIS)); 
-                       
-                         initialization.e_container.add(appear_add_box(initialization.e_container));
-                         initialization.e_container.add(Add_Form(initialization.e_container));
-                         initialization.e_container.add(Add_jackButton(initialization.e_container));
-                         initialization.e_container.repaint();
-                         initialization.e_container.revalidate();
-                         initialization.e_container.setVisible(true);
-                       
-                        
-                        
-                        }  
-                        });
-                        
-                        b.repaint();
-                        b.revalidate();
-                        //implementation sides
-                        hai_second.add(b);
-                       // hai.add(hai_second);
-                       if(initialization.check_number >=3){
-                        SpringLayout layout = new SpringLayout();
-                       hai.setLayout( layout);
-                         hai.add(hai_second);
-                        layout.putConstraint(SpringLayout.HORIZONTAL_CENTER, hai_second, 0, SpringLayout.HORIZONTAL_CENTER, hai);                          
-                        layout.putConstraint(SpringLayout.VERTICAL_CENTER, hai_second,-150,SpringLayout.SOUTH, hai);
-                   
-                         //JLabelstring.setSize(new Dimension(150,30));
-                         //JLabelstring.setHorizontalAlignment(SwingConstants.CENTER);
-                         //JLabelstring.setVerticalAlignment(SwingConstants.BOTTOM);
-                         // hai.add(JLabelstring,BorderLayout.PAGE_END);
-                       }else{
-                           //man
-                         //JLabelstring.setPreferredSize(new Dimension(150,30));
-                         //JLabelstring.setHorizontalAlignment(SwingConstants.CENTER);
-                         //JLabelstring.setVerticalAlignment(SwingConstants.BOTTOM);
-                              SpringLayout layout = new SpringLayout();
-                       hai.setLayout( layout);
-                         hai.add(hai_second);
-                           layout.putConstraint(SpringLayout.HORIZONTAL_CENTER, hai_second, 0, SpringLayout.HORIZONTAL_CENTER, hai);                          
-                        layout.putConstraint(SpringLayout.VERTICAL_CENTER, hai_second,-150,SpringLayout.SOUTH, hai);
-                   
-                          //hai.add(JLabelstring);
-                        
-                          /*  layout.putConstraint(SpringLayout.EAST, JLabelstring,
-                          JLabelstring.getWidth()- JLabelstring.getWidth()/2+ JLabelstring.getWidth()/10,
-                             SpringLayout.WEST, hai_second);
-                            */
-                       // layout.putConstraint(SpringLayout.HORIZONTAL_CENTER, JLabelstring, 0, SpringLayout.HORIZONTAL_CENTER, hai_second);                          
-                       // layout.putConstraint(SpringLayout.SOUTH, JLabelstring,b.getHeight()+25,SpringLayout.SOUTH, hai_second);
-                       
-                       }
-                       
-                       
-                       
-    
-                        // JLabelstring.setBounds(0,300, JLabelstring.getWidth(), JLabelstring.getHeight());
-                         // hai.add(hai_second,BorderLayout.PAGE_START);
-                         // hai.add(JLabelstring,BorderLayout.PAGE_END);
-                          
-// hai.add(JLabelstring);
-                          return hai;
+        SpringLayout layout = new SpringLayout();
+        hai.setLayout(layout);
+        hai.add(addButton);
+        
+        // Center the button in the panel
+        layout.putConstraint(SpringLayout.HORIZONTAL_CENTER, addButton, 0, SpringLayout.HORIZONTAL_CENTER, hai);
+        layout.putConstraint(SpringLayout.VERTICAL_CENTER, addButton, 0, SpringLayout.VERTICAL_CENTER, hai);
+        
+        return hai;
     }
      
     private JPanel Add_Form(JPanel Panel_size) {
