@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package f_family;
+package s_sidebar2;
 
 import addcomponent.SpringUtilities;
 import css.f_family_g_add_button_image_JButton;

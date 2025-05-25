@@ -3,9 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package gereja;
+package g_button_main_folder;
 
 import f_family.f_family02;
+import gereja.f_create_church_A;
 import initialization.initialization;
 import java.awt.BorderLayout;
 import java.awt.Color;

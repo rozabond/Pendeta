@@ -3,9 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package gereja;
+package g_button_main_folder;
 
 import css.scrollbar;
+import gereja.f_create_guirapaint;
 import initialization.initialization;
 import static initialization.initialization.container;
 import static initialization.initialization.familypanelWidth;
@@ -112,7 +113,7 @@ public class f_main_AC {
   
     public JButton notes01_B_C_B_B = new JButton("Tambah");
     
-    f_save_department f_save_department = new f_save_department();
+   
     f_create_guirapaint button = new f_create_guirapaint();
  
     
@@ -260,8 +261,7 @@ public class f_main_AC {
         notes01_B_C_B_B.addActionListener(new ActionListener(){  
                         public void actionPerformed(ActionEvent e){ 
                       if(!initialization.notes01_B_A_T.getText().isEmpty() && !initialization.notes01_B_B_T.getText().isEmpty()){
-                       f_save_department.g_save_name();
-                       Pendeta_origin.i_clearthings();
+            
                     
                        button.g_repaint();
                       }else{

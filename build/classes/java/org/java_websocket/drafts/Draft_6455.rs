@@ -1,2 +1,0 @@
-org.java_websocket.drafts.Draft_6455$TranslatedPayloadMetaData
-org.java_websocket.drafts.Draft_6455

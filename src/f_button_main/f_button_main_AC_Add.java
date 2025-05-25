@@ -5,8 +5,8 @@
  */
 package f_button_main;
 
-import gereja.f_main_AC;
-import gereja.f_main_AC_B;
+import g_button_main_folder.f_main_AC;
+import g_button_main_folder.f_main_AC_B;
 import gereja.f_save_department;
 import initialization.initialization;
 import java.awt.Color;

@@ -73,58 +73,71 @@ JPanel hai_origin = new JPanel();
            JLabel Title = new JLabel("Welcome Pendeta, Only Register Once", JLabel.TRAILING);
            Title.setForeground(Color.WHITE);
        
-           JPanel hai2 = new JPanel(new GridLayout(0,2,20,10));
-           hai2.setPreferredSize(new Dimension(400,145));
+           JPanel hai2 = new JPanel(new GridLayout(8, 1, 5, 5));
+           hai2.setPreferredSize(new Dimension(300,300));
            hai2.setBounds(0, 0, hai2.getWidth(), hai2.getHeight());
-           hai2.setBackground(new Color(23,25,34));
+        
    
-       
+           // Email field
+           JLabel l = new JLabel("Email", JLabel.LEADING);
+           hai2.add(l);
+           textField_1.setPreferredSize(new Dimension(hai2.getWidth(), 30));
+           hai2.add(textField_1);
            
+           // Password field
+           JLabel l_2 = new JLabel("Password", JLabel.LEADING);
+        
+           hai2.add(l_2);
+           textField_2.setPreferredSize(new Dimension(hai2.getWidth(), 30));
+           hai2.add(textField_2);
            
-            JLabel l = new JLabel("email", JLabel.TRAILING);
-            hai2.add(l);
-            textField_1.setPreferredSize(new Dimension(hai2.getWidth(),70));
-            l.setLabelFor(textField_1);
-            hai2.add(textField_1);
-            JLabel l_2 = new JLabel("Password", JLabel.TRAILING);
-            hai2.add(l_2);
-            textField_2.setPreferredSize(new Dimension(hai2.getWidth(),70));
-            hai2.add(textField_2);
-            JLabel l_2_2 = new JLabel("Retype", JLabel.TRAILING);
-            hai2.add(l_2_2);
-            textField_3.setPreferredSize(new Dimension(hai2.getWidth(),70));
-            hai2.add(textField_3);
-            JLabel l_2_2_2 = new JLabel("Product Id", JLabel.TRAILING);
-            hai2.add(l_2_2_2);
-            textField_4.setPreferredSize(new Dimension(hai2.getWidth(),70));
-            hai2.add(textField_4);
-            
-            SpringUtilities.makeCompactGrid(hai2,
-                                        2, 2, //rows, cols
-                                        6, 20,        //initX, initY
-                                        6, 20);       //xPad, yPad 
-            
-            layout.putConstraint(SpringLayout.VERTICAL_CENTER, Title, -110, SpringLayout.VERTICAL_CENTER, hai_origin);  
-            layout.putConstraint(SpringLayout.HORIZONTAL_CENTER, Title,-30, SpringLayout.HORIZONTAL_CENTER, hai_origin); 
-            layout.putConstraint(SpringLayout.VERTICAL_CENTER, hai2, -5, SpringLayout.VERTICAL_CENTER, hai_origin);  
-            layout.putConstraint(SpringLayout.HORIZONTAL_CENTER, hai2,-70, SpringLayout.HORIZONTAL_CENTER, hai_origin); 
-            layout.putConstraint(SpringLayout.VERTICAL_CENTER, Registerbtn, 100, SpringLayout.VERTICAL_CENTER, hai_origin);  
-            layout.putConstraint(SpringLayout.HORIZONTAL_CENTER, Registerbtn,90, SpringLayout.HORIZONTAL_CENTER, hai_origin); 
-            layout.putConstraint(SpringLayout.VERTICAL_CENTER, back, 100, SpringLayout.VERTICAL_CENTER, hai_origin);  
-            layout.putConstraint(SpringLayout.HORIZONTAL_CENTER, back,-90, SpringLayout.HORIZONTAL_CENTER, hai_origin); 
-            layout.putConstraint(SpringLayout.VERTICAL_CENTER, l_a_p, 135, SpringLayout.VERTICAL_CENTER, hai_origin);  
-            layout.putConstraint(SpringLayout.HORIZONTAL_CENTER, l_a_p, -60, SpringLayout.HORIZONTAL_CENTER, hai_origin);           
-            layout.putConstraint(SpringLayout.VERTICAL_CENTER, l_a_product, 135, SpringLayout.VERTICAL_CENTER, hai_origin);  
-            layout.putConstraint(SpringLayout.HORIZONTAL_CENTER, l_a_product, -60, SpringLayout.HORIZONTAL_CENTER, hai_origin);           
-            layout.putConstraint(SpringLayout.VERTICAL_CENTER, l_a_product_valid_email, 135, SpringLayout.VERTICAL_CENTER, hai_origin);  
-            layout.putConstraint(SpringLayout.HORIZONTAL_CENTER, l_a_product_valid_email, -60, SpringLayout.HORIZONTAL_CENTER, hai_origin);           
+           // Retype field
+           JLabel l_2_2 = new JLabel("Retype", JLabel.LEADING);
+        
+           hai2.add(l_2_2);
+           textField_3.setPreferredSize(new Dimension(hai2.getWidth(), 30));
+           hai2.add(textField_3);
+           
+           // Product ID field
+           JLabel l_2_2_2 = new JLabel("Product Id", JLabel.LEADING);
+          
+           hai2.add(l_2_2_2);
+           textField_4.setPreferredSize(new Dimension(hai2.getWidth(), 30));
+           hai2.add(textField_4);
+           
+           // Style the Register and Back buttons
+           Dimension buttonSize = new Dimension(200, 35);
+           Registerbtn.setPreferredSize(buttonSize);
+           back.setPreferredSize(buttonSize);
+           
+           // Add separator with "or" text
+           JLabel separator = new JLabel("---------------------or-----------------------", JLabel.CENTER);
+           separator.setForeground(Color.WHITE);
+           
+           layout.putConstraint(SpringLayout.VERTICAL_CENTER, Title, -200, SpringLayout.VERTICAL_CENTER, hai_origin);  
+           layout.putConstraint(SpringLayout.HORIZONTAL_CENTER, Title, 0, SpringLayout.HORIZONTAL_CENTER, hai_origin); 
+           layout.putConstraint(SpringLayout.VERTICAL_CENTER, hai2, -35, SpringLayout.VERTICAL_CENTER, hai_origin);  
+           layout.putConstraint(SpringLayout.HORIZONTAL_CENTER, hai2, 0, SpringLayout.HORIZONTAL_CENTER, hai_origin); 
+           layout.putConstraint(SpringLayout.VERTICAL_CENTER, Registerbtn, 150, SpringLayout.VERTICAL_CENTER, hai_origin);  
+           layout.putConstraint(SpringLayout.HORIZONTAL_CENTER, Registerbtn, 0, SpringLayout.HORIZONTAL_CENTER, hai_origin); 
+           layout.putConstraint(SpringLayout.VERTICAL_CENTER, separator, 180, SpringLayout.VERTICAL_CENTER, hai_origin);
+           layout.putConstraint(SpringLayout.HORIZONTAL_CENTER, separator, 0, SpringLayout.HORIZONTAL_CENTER, hai_origin);
+           layout.putConstraint(SpringLayout.VERTICAL_CENTER, back, 210, SpringLayout.VERTICAL_CENTER, hai_origin);  
+           layout.putConstraint(SpringLayout.HORIZONTAL_CENTER, back, 0, SpringLayout.HORIZONTAL_CENTER, hai_origin); 
+           layout.putConstraint(SpringLayout.VERTICAL_CENTER, l_a_p, 160, SpringLayout.VERTICAL_CENTER, hai_origin);  
+           layout.putConstraint(SpringLayout.HORIZONTAL_CENTER, l_a_p, -60, SpringLayout.HORIZONTAL_CENTER, hai_origin);           
+           layout.putConstraint(SpringLayout.VERTICAL_CENTER, l_a_product, 190, SpringLayout.VERTICAL_CENTER, hai_origin);  
+           layout.putConstraint(SpringLayout.HORIZONTAL_CENTER, l_a_product, -60, SpringLayout.HORIZONTAL_CENTER, hai_origin);           
+           layout.putConstraint(SpringLayout.VERTICAL_CENTER, l_a_product_valid_email, 220, SpringLayout.VERTICAL_CENTER, hai_origin);  
+           layout.putConstraint(SpringLayout.HORIZONTAL_CENTER, l_a_product_valid_email, -60, SpringLayout.HORIZONTAL_CENTER, hai_origin);           
                         
             
             hai_origin.add(Title);
             hai_origin.add(hai2);
             hai_origin.add(Registerbtn);
+            hai_origin.add(separator);
+            hai_origin.add(back);
              hai_origin.add(l_a_p);  
-             hai_origin.add(back);
              hai_origin.add(l_a_product);
              hai_origin.add(l_a_product_valid_email);
              

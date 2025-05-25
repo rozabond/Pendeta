@@ -7,7 +7,7 @@ package s_sidebar2;
 
 import f_file_gereja.f_file_gereja;
 import f_infogereja.i_info_gereja;
-import f_searchbar.f_searchbar;
+import f_seachbar.f_searchbar;
 import initialization.initialization;
 import java.awt.BorderLayout;
 import java.awt.Color;

@@ -14553,3 +14553,222 @@ C:\fakepath(132,32-88): warning X3571: pow(f, e) will not work for negative f, u
 [0102/190648.157:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
 [0102/190653.161:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
 [0102/190658.181:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0127/210553.224:INFO:CONSOLE(960)] "[Report Only] Refused to compile or instantiate WebAssembly module because 'wasm-eval' is not an allowed source of script in the following Content Security Policy directive: "script-src 'nonce-KqOHEEZOYygF9RLJAKJdwA' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:".
+", source: https://www.google.com.my/maps/_/js/k=maps.m.en.Xb5VWAMJfAQ.2019.O/m=sc2,per,mo,lp,ti,ds,stx,dwi,enr,bom,b/am=4ABIHAAF/rt=j/d=1/rs=ACT90oHPgzxKhXv3BCPkUfPImXvjt1iCig?wli=m.P5qFv5UPlUo.loadSv.O%3A%3B (960)
+[0127/210554.350:INFO:CONSOLE(399)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com.my/maps/@4.140634,109.6181485,6z (399)
+[0127/210554.350:INFO:CONSOLE(399)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com.my/maps/@4.140634,109.6181485,6z (399)
+[0127/210554.351:INFO:CONSOLE(399)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com.my/maps/@4.140634,109.6181485,6z (399)
+[0127/210554.351:INFO:CONSOLE(399)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com.my/maps/@4.140634,109.6181485,6z (399)
+[0127/210556.913:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 347
+[0127/210556.913:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 345
+[0127/210556.932:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 337
+[0127/210556.945:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 319
+[0127/210556.956:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 341
+[0127/210556.967:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 315
+[0127/210556.978:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 333
+[0127/210556.986:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 335
+[0127/210556.986:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 329
+[0127/210601.828:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 485
+[0127/210601.852:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 495
+[0127/210601.853:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 491
+[0127/210601.859:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 501
+[0127/210601.864:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 503
+[0127/210601.870:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 499
+[0127/210601.872:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 493
+[0127/210602.943:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 601
+[0127/210602.944:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 613
+[0127/210602.951:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 603
+[0127/210602.956:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 625
+[0127/210602.957:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 609
+[0127/210602.978:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 597
+[0127/210602.996:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 605
+[0127/210603.014:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 617
+[0127/210603.031:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 595
+[0127/210603.044:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 599
+[0127/210603.055:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 607
+[0127/210603.065:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 619
+[0127/210603.081:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 621
+[0127/210603.094:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 611
+[0127/210603.097:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 615
+[0127/210603.113:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 623
+[0127/210608.050:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 767
+[0127/210610.374:INFO:CONSOLE(87)] "WebSocket connection to 'ws://localhost:8081/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED", source: http://localhost:8080/ (87)
+[0127/210612.818:INFO:CONSOLE(136)] "start dragging", source: http://localhost:8080/ (136)
+[0127/210613.122:INFO:CONSOLE(147)] "stop dragging", source: http://localhost:8080/ (147)
+[0127/210613.122:INFO:CONSOLE(149)] "117.48495017490627,5.812651260879733", source: http://localhost:8080/ (149)
+[0127/210613.122:INFO:CONSOLE(167)] "WebSocket is already in CLOSING or CLOSED state.", source: http://localhost:8080/ (167)
+[0127/210615.708:INFO:CONSOLE(136)] "start dragging", source: http://localhost:8080/ (136)
+[0127/210616.420:INFO:CONSOLE(147)] "stop dragging", source: http://localhost:8080/ (147)
+[0127/210616.420:INFO:CONSOLE(149)] "116.43470788342246,6.036907168772103", source: http://localhost:8080/ (149)
+[0127/210616.420:INFO:CONSOLE(167)] "WebSocket is already in CLOSING or CLOSED state.", source: http://localhost:8080/ (167)
+[0127/210619.669:INFO:CONSOLE(136)] "start dragging", source: http://localhost:8080/ (136)
+[0127/210620.170:INFO:CONSOLE(147)] "stop dragging", source: http://localhost:8080/ (147)
+[0127/210620.170:INFO:CONSOLE(149)] "116.37745601867881,6.130182819653015", source: http://localhost:8080/ (149)
+[0127/210620.170:INFO:CONSOLE(167)] "WebSocket is already in CLOSING or CLOSED state.", source: http://localhost:8080/ (167)
+[0127/210623.099:INFO:CONSOLE(136)] "start dragging", source: http://localhost:8080/ (136)
+[0127/210624.011:INFO:CONSOLE(147)] "stop dragging", source: http://localhost:8080/ (147)
+[0127/210624.011:INFO:CONSOLE(149)] "116.42094949779681,6.113305219287042", source: http://localhost:8080/ (149)
+[0127/210624.011:INFO:CONSOLE(167)] "WebSocket is already in CLOSING or CLOSED state.", source: http://localhost:8080/ (167)
+[0127/210626.195:INFO:CONSOLE(136)] "start dragging", source: http://localhost:8080/ (136)
+[0127/210627.258:INFO:CONSOLE(147)] "stop dragging", source: http://localhost:8080/ (147)
+[0127/210627.258:INFO:CONSOLE(149)] "116.42321731660678,6.106462890001723", source: http://localhost:8080/ (149)
+[0127/210627.259:INFO:CONSOLE(167)] "WebSocket is already in CLOSING or CLOSED state.", source: http://localhost:8080/ (167)
+[0127/210630.937:INFO:CONSOLE(960)] "[Report Only] Refused to compile or instantiate WebAssembly module because 'wasm-eval' is not an allowed source of script in the following Content Security Policy directive: "script-src 'nonce-gDlTxavJcKVzEqmotbtiDA' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:".
+", source: https://www.google.com.my/maps/_/js/k=maps.m.en.Xb5VWAMJfAQ.2019.O/m=sc2,per,mo,lp,ti,ds,stx,dwi,enr,bom,b/am=4ABIHAAF/rt=j/d=1/rs=ACT90oHPgzxKhXv3BCPkUfPImXvjt1iCig?wli=m.P5qFv5UPlUo.loadSv.O%3A%3B (960)
+[0127/210631.095:INFO:CONSOLE(399)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com.my/maps/@4.140634,109.6181485,6z (399)
+[0127/210631.095:INFO:CONSOLE(399)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com.my/maps/@4.140634,109.6181485,6z (399)
+[0127/210631.095:INFO:CONSOLE(399)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com.my/maps/@4.140634,109.6181485,6z (399)
+[0127/210631.686:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 817
+[0127/210631.708:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 839
+[0127/210631.712:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 827
+[0127/210631.718:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 837
+[0127/210631.745:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 845
+[0127/210631.792:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 869
+[0127/210639.370:INFO:CONSOLE(960)] "[Report Only] Refused to compile or instantiate WebAssembly module because 'wasm-eval' is not an allowed source of script in the following Content Security Policy directive: "script-src 'nonce-gR3HUN6KgXzppNJuzpZwaQ' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:".
+", source: https://www.google.com.my/maps/_/js/k=maps.m.en.Xb5VWAMJfAQ.2019.O/m=sc2,per,mo,lp,ti,ds,stx,dwi,enr,bom,b/am=4ABIHAAF/rt=j/d=1/rs=ACT90oHPgzxKhXv3BCPkUfPImXvjt1iCig?wli=m.P5qFv5UPlUo.loadSv.O%3A%3B (960)
+[0127/210639.457:INFO:CONSOLE(399)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com.my/maps/@4.140634,109.6181485,6z (399)
+[0127/210639.457:INFO:CONSOLE(399)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com.my/maps/@4.140634,109.6181485,6z (399)
+[0127/210639.457:INFO:CONSOLE(399)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com.my/maps/@4.140634,109.6181485,6z (399)
+[0127/210644.641:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 1043
+[0127/210644.641:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 1045
+[0127/210644.641:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 1039
+[0127/210644.642:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 1041
+[0127/210644.642:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 1037
+[0127/210644.642:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 1049
+[0127/210712.270:INFO:CONSOLE(960)] "[Report Only] Refused to compile or instantiate WebAssembly module because 'wasm-eval' is not an allowed source of script in the following Content Security Policy directive: "script-src 'nonce-bS4DcINZm76oNM21Me6JPw' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:".
+", source: https://www.google.com.my/maps/_/js/k=maps.m.en.Xb5VWAMJfAQ.2019.O/m=sc2,per,mo,lp,ti,ds,stx,dwi,enr,bom,b/am=4ABIHAAF/rt=j/d=1/rs=ACT90oHPgzxKhXv3BCPkUfPImXvjt1iCig?wli=m.P5qFv5UPlUo.loadSv.O%3A%3B (960)
+[0127/210712.509:INFO:CONSOLE(399)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com.my/maps/@4.140634,109.6181485,6z (399)
+[0127/210712.509:INFO:CONSOLE(399)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com.my/maps/@4.140634,109.6181485,6z (399)
+[0127/210712.510:INFO:CONSOLE(399)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com.my/maps/@4.140634,109.6181485,6z (399)
+[0127/212555.136:INFO:CONSOLE(960)] "[Report Only] Refused to compile or instantiate WebAssembly module because 'wasm-eval' is not an allowed source of script in the following Content Security Policy directive: "script-src 'nonce-OZcBx9lMWpLy_Mi0CZpKEA' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:".
+", source: https://www.google.com.my/maps/_/js/k=maps.m.en.Xb5VWAMJfAQ.2019.O/m=sc2,per,mo,lp,ti,ds,stx,dwi,enr,bom,b/am=4ABIHAAF/rt=j/d=1/rs=ACT90oHPgzxKhXv3BCPkUfPImXvjt1iCig?wli=m.P5qFv5UPlUo.loadSv.O%3A%3B (960)
+[0127/212557.045:INFO:CONSOLE(399)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com.my/maps/@4.140634,109.6181485,6z (399)
+[0127/212557.046:INFO:CONSOLE(399)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com.my/maps/@4.140634,109.6181485,6z (399)
+[0127/212557.046:INFO:CONSOLE(399)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com.my/maps/@4.140634,109.6181485,6z (399)
+[0127/212557.046:INFO:CONSOLE(399)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com.my/maps/@4.140634,109.6181485,6z (399)
+[0127/212558.816:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 187
+[0127/212627.491:INFO:CONSOLE(136)] "start dragging", source: http://localhost:8080/ (136)
+[0127/212627.605:INFO:CONSOLE(87)] "WebSocket connection to 'ws://localhost:8081/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED", source: http://localhost:8080/ (87)
+[0127/212628.442:INFO:CONSOLE(147)] "stop dragging", source: http://localhost:8080/ (147)
+[0127/212628.442:INFO:CONSOLE(149)] "116.50117607997122,6.193607128085546", source: http://localhost:8080/ (149)
+[0127/212628.442:INFO:CONSOLE(167)] "WebSocket is already in CLOSING or CLOSED state.", source: http://localhost:8080/ (167)
+[0127/212631.458:INFO:CONSOLE(136)] "start dragging", source: http://localhost:8080/ (136)
+[0127/212631.962:INFO:CONSOLE(147)] "stop dragging", source: http://localhost:8080/ (147)
+[0127/212631.962:INFO:CONSOLE(149)] "116.43061937611691,6.1834778322859165", source: http://localhost:8080/ (149)
+[0127/212631.962:INFO:CONSOLE(167)] "WebSocket is already in CLOSING or CLOSED state.", source: http://localhost:8080/ (167)
+[0127/212634.618:INFO:CONSOLE(136)] "start dragging", source: http://localhost:8080/ (136)
+[0127/212635.890:INFO:CONSOLE(147)] "stop dragging", source: http://localhost:8080/ (147)
+[0127/212635.890:INFO:CONSOLE(149)] "116.44949962843327,6.231679182505303", source: http://localhost:8080/ (149)
+[0127/212635.890:INFO:CONSOLE(167)] "WebSocket is already in CLOSING or CLOSED state.", source: http://localhost:8080/ (167)
+[0127/212638.324:INFO:CONSOLE(960)] "[Report Only] Refused to compile or instantiate WebAssembly module because 'wasm-eval' is not an allowed source of script in the following Content Security Policy directive: "script-src 'nonce-Dd7lQ_xoiqFcJrx6_TQf4Q' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:".
+", source: https://www.google.com.my/maps/_/js/k=maps.m.en.Xb5VWAMJfAQ.2019.O/m=sc2,per,mo,lp,ti,ds,stx,dwi,enr,bom,b/am=4ABIHAAF/rt=j/d=1/rs=ACT90oHPgzxKhXv3BCPkUfPImXvjt1iCig?wli=m.P5qFv5UPlUo.loadSv.O%3A%3B (960)
+[0127/212638.501:INFO:CONSOLE(399)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com.my/maps/@4.140634,109.6181485,6z (399)
+[0127/212638.501:INFO:CONSOLE(399)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com.my/maps/@4.140634,109.6181485,6z (399)
+[0127/212638.501:INFO:CONSOLE(399)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com.my/maps/@4.140634,109.6181485,6z (399)
+[0127/212641.757:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 415
+[0127/212656.478:INFO:CONSOLE(960)] "[Report Only] Refused to compile or instantiate WebAssembly module because 'wasm-eval' is not an allowed source of script in the following Content Security Policy directive: "script-src 'nonce-mKhuwbFO-0J5ohxKlVLwuQ' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:".
+", source: https://www.google.com.my/maps/_/js/k=maps.m.en.Xb5VWAMJfAQ.2019.O/m=sc2,per,mo,lp,ti,ds,stx,dwi,enr,bom,b/am=4ABIHAAF/rt=j/d=1/rs=ACT90oHPgzxKhXv3BCPkUfPImXvjt1iCig?wli=m.P5qFv5UPlUo.loadSv.O%3A%3B (960)
+[0127/212656.652:INFO:CONSOLE(399)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com.my/maps/@4.140634,109.6181485,6z (399)
+[0127/212656.652:INFO:CONSOLE(399)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com.my/maps/@4.140634,109.6181485,6z (399)
+[0127/212656.652:INFO:CONSOLE(399)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com.my/maps/@4.140634,109.6181485,6z (399)
+[0127/212658.826:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 491
+[0127/212658.837:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 495
+[0127/212659.658:INFO:CONSOLE(136)] "start dragging", source: http://localhost:8080/ (136)
+[0127/212700.609:INFO:CONSOLE(147)] "stop dragging", source: http://localhost:8080/ (147)
+[0127/212700.609:INFO:CONSOLE(149)] "116.42671848326677,6.091822223858657", source: http://localhost:8080/ (149)
+[0127/212700.609:INFO:CONSOLE(167)] "Uncaught InvalidStateError: Failed to execute 'send' on 'WebSocket': Still in CONNECTING state.", source: http://localhost:8080/ (167)
+[0127/212701.143:INFO:CONSOLE(87)] "WebSocket connection to 'ws://localhost:8081/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED", source: http://localhost:8080/ (87)
+[0127/212701.514:INFO:CONSOLE(136)] "start dragging", source: http://localhost:8080/ (136)
+[0127/212701.626:INFO:CONSOLE(147)] "stop dragging", source: http://localhost:8080/ (147)
+[0127/212701.627:INFO:CONSOLE(149)] "116.33223607815557,5.993494642839181", source: http://localhost:8080/ (149)
+[0127/212701.627:INFO:CONSOLE(167)] "WebSocket is already in CLOSING or CLOSED state.", source: http://localhost:8080/ (167)
+[0127/212702.938:INFO:CONSOLE(960)] "[Report Only] Refused to compile or instantiate WebAssembly module because 'wasm-eval' is not an allowed source of script in the following Content Security Policy directive: "script-src 'nonce-Gjo5uw_b5_qjnhfqHf7OjQ' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:".
+", source: https://www.google.com.my/maps/_/js/k=maps.m.en.Xb5VWAMJfAQ.2019.O/m=sc2,per,mo,lp,ti,ds,stx,dwi,enr,bom,b/am=4ABIHAAF/rt=j/d=1/rs=ACT90oHPgzxKhXv3BCPkUfPImXvjt1iCig?wli=m.P5qFv5UPlUo.loadSv.O%3A%3B (960)
+[0127/212703.105:INFO:CONSOLE(399)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com.my/maps/@4.140634,109.6181485,6z (399)
+[0127/212703.105:INFO:CONSOLE(399)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com.my/maps/@4.140634,109.6181485,6z (399)
+[0127/212703.105:INFO:CONSOLE(399)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com.my/maps/@4.140634,109.6181485,6z (399)
+[0127/212726.723:INFO:CONSOLE(960)] "[Report Only] Refused to compile or instantiate WebAssembly module because 'wasm-eval' is not an allowed source of script in the following Content Security Policy directive: "script-src 'nonce-9YSALGBHNMJjYW4imA3r_A' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:".
+", source: https://www.google.com.my/maps/_/js/k=maps.m.en.Xb5VWAMJfAQ.2019.O/m=sc2,per,mo,lp,ti,ds,stx,dwi,enr,bom,b/am=4ABIHAAF/rt=j/d=1/rs=ACT90oHPgzxKhXv3BCPkUfPImXvjt1iCig?wli=m.P5qFv5UPlUo.loadSv.O%3A%3B (960)
+[0127/212726.975:INFO:CONSOLE(399)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com.my/maps/@4.140634,109.6181485,6z (399)
+[0127/212726.975:INFO:CONSOLE(399)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com.my/maps/@4.140634,109.6181485,6z (399)
+[0127/212726.975:INFO:CONSOLE(399)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com.my/maps/@4.140634,109.6181485,6z (399)
+[0127/212727.581:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 541
+[0127/212730.799:INFO:CONSOLE(960)] "[Report Only] Refused to compile or instantiate WebAssembly module because 'wasm-eval' is not an allowed source of script in the following Content Security Policy directive: "script-src 'nonce-gTuQlE7qBUr52HJH7EN0_A' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:".
+", source: https://www.google.com.my/maps/_/js/k=maps.m.en.Xb5VWAMJfAQ.2019.O/m=sc2,per,mo,lp,ti,ds,stx,dwi,enr,bom,b/am=4ABIHAAF/rt=j/d=1/rs=ACT90oHPgzxKhXv3BCPkUfPImXvjt1iCig?wli=m.P5qFv5UPlUo.loadSv.O%3A%3B (960)
+[0127/212730.962:INFO:CONSOLE(399)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com.my/maps/@4.140634,109.6181485,6z (399)
+[0127/212730.962:INFO:CONSOLE(399)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com.my/maps/@4.140634,109.6181485,6z (399)
+[0127/212730.962:INFO:CONSOLE(399)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com.my/maps/@4.140634,109.6181485,6z (399)
+[0128/135624.953:INFO:CONSOLE(960)] "[Report Only] Refused to compile or instantiate WebAssembly module because 'wasm-eval' is not an allowed source of script in the following Content Security Policy directive: "script-src 'nonce-Gk9Iy5EnFXIXV576lNP4Eg' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:".
+", source: https://www.google.com.my/maps/_/js/k=maps.m.en.Xb5VWAMJfAQ.2019.O/m=sc2,per,mo,lp,ti,ds,stx,dwi,enr,bom,b/am=4ABIHAAF/rt=j/d=1/rs=ACT90oHPgzxKhXv3BCPkUfPImXvjt1iCig?wli=m.P5qFv5UPlUo.loadSv.O%3A%3B (960)
+[0128/135625.920:INFO:CONSOLE(399)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com.my/maps/@4.140634,109.6181485,6z (399)
+[0128/135625.921:INFO:CONSOLE(399)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com.my/maps/@4.140634,109.6181485,6z (399)
+[0128/135625.922:INFO:CONSOLE(399)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com.my/maps/@4.140634,109.6181485,6z (399)
+[0128/135625.922:INFO:CONSOLE(399)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com.my/maps/@4.140634,109.6181485,6z (399)
+[0128/135630.531:INFO:CONSOLE(136)] "start dragging", source: http://localhost:8080/ (136)
+[0128/135631.281:INFO:CONSOLE(147)] "stop dragging", source: http://localhost:8080/ (147)
+[0128/135631.281:INFO:CONSOLE(149)] "116.58272430911417,5.932304105418552", source: http://localhost:8080/ (149)
+[0128/135631.282:INFO:CONSOLE(167)] "Uncaught InvalidStateError: Failed to execute 'send' on 'WebSocket': Still in CONNECTING state.", source: http://localhost:8080/ (167)
+[0128/135631.403:INFO:CONSOLE(87)] "WebSocket connection to 'ws://localhost:8081/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED", source: http://localhost:8080/ (87)
+[0128/135631.597:INFO:CONSOLE(136)] "start dragging", source: http://localhost:8080/ (136)
+[0128/135631.828:INFO:CONSOLE(147)] "stop dragging", source: http://localhost:8080/ (147)
+[0128/135631.828:INFO:CONSOLE(149)] "116.71016569860035,5.927933074192836", source: http://localhost:8080/ (149)
+[0128/135631.828:INFO:CONSOLE(167)] "WebSocket is already in CLOSING or CLOSED state.", source: http://localhost:8080/ (167)
+[0128/135631.953:INFO:CONSOLE(136)] "start dragging", source: http://localhost:8080/ (136)
+[0128/135632.050:INFO:CONSOLE(147)] "stop dragging", source: http://localhost:8080/ (147)
+[0128/135632.050:INFO:CONSOLE(149)] "116.73433567076677,6.004420807580885", source: http://localhost:8080/ (149)
+[0128/135632.050:INFO:CONSOLE(167)] "WebSocket is already in CLOSING or CLOSED state.", source: http://localhost:8080/ (167)
+[0128/135637.672:INFO:CONSOLE(136)] "start dragging", source: http://localhost:8080/ (136)
+[0128/135637.952:INFO:CONSOLE(147)] "stop dragging", source: http://localhost:8080/ (147)
+[0128/135637.952:INFO:CONSOLE(149)] "116.66308487909888,6.060415378442585", source: http://localhost:8080/ (149)
+[0128/135637.954:INFO:CONSOLE(167)] "WebSocket is already in CLOSING or CLOSED state.", source: http://localhost:8080/ (167)
+[0128/135638.017:INFO:CONSOLE(136)] "start dragging", source: http://localhost:8080/ (136)
+[0128/135638.073:INFO:CONSOLE(147)] "stop dragging", source: http://localhost:8080/ (147)
+[0128/135638.073:INFO:CONSOLE(149)] "116.62573134671005,6.093189162086176", source: http://localhost:8080/ (149)
+[0128/135638.073:INFO:CONSOLE(167)] "WebSocket is already in CLOSING or CLOSED state.", source: http://localhost:8080/ (167)
+[0128/135638.130:INFO:CONSOLE(136)] "start dragging", source: http://localhost:8080/ (136)
+[0128/135638.640:INFO:CONSOLE(147)] "stop dragging", source: http://localhost:8080/ (147)
+[0128/135638.641:INFO:CONSOLE(149)] "116.40600474230052,6.174022600463189", source: http://localhost:8080/ (149)
+[0128/135638.642:INFO:CONSOLE(167)] "WebSocket is already in CLOSING or CLOSED state.", source: http://localhost:8080/ (167)
+[0128/135641.969:INFO:CONSOLE(136)] "start dragging", source: http://localhost:8080/ (136)
+[0128/135642.779:INFO:CONSOLE(147)] "stop dragging", source: http://localhost:8080/ (147)
+[0128/135642.779:INFO:CONSOLE(149)] "116.27444203968692,6.165061641239376", source: http://localhost:8080/ (149)
+[0128/135642.779:INFO:CONSOLE(167)] "WebSocket is already in CLOSING or CLOSED state.", source: http://localhost:8080/ (167)
+[0128/135646.091:INFO:CONSOLE(136)] "start dragging", source: http://localhost:8080/ (136)
+[0128/135646.578:INFO:CONSOLE(147)] "stop dragging", source: http://localhost:8080/ (147)
+[0128/135646.578:INFO:CONSOLE(149)] "116.26662703480739,6.1517635161454365", source: http://localhost:8080/ (149)
+[0128/135646.578:INFO:CONSOLE(167)] "WebSocket is already in CLOSING or CLOSED state.", source: http://localhost:8080/ (167)
+[0128/135710.976:INFO:CONSOLE(136)] "start dragging", source: http://localhost:8080/ (136)
+[0128/135712.185:INFO:CONSOLE(147)] "stop dragging", source: http://localhost:8080/ (147)
+[0128/135712.185:INFO:CONSOLE(149)] "116.513369372881,6.210560503124114", source: http://localhost:8080/ (149)
+[0128/135712.185:INFO:CONSOLE(167)] "WebSocket is already in CLOSING or CLOSED state.", source: http://localhost:8080/ (167)
+[0128/135724.018:INFO:CONSOLE(960)] "[Report Only] Refused to compile or instantiate WebAssembly module because 'wasm-eval' is not an allowed source of script in the following Content Security Policy directive: "script-src 'nonce-YB-Ns3CKpTRxReYXBUkPaQ' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:".
+", source: https://www.google.com.my/maps/_/js/k=maps.m.en.Xb5VWAMJfAQ.2019.O/m=sc2,per,mo,lp,ti,ds,stx,dwi,enr,bom,b/am=4ABIHAAF/rt=j/d=1/rs=ACT90oHPgzxKhXv3BCPkUfPImXvjt1iCig?wli=m.P5qFv5UPlUo.loadSv.O%3A%3B (960)
+[0128/135724.661:INFO:CONSOLE(399)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com.my/maps/@4.140634,109.6181485,6z (399)
+[0128/135724.664:INFO:CONSOLE(399)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com.my/maps/@4.140634,109.6181485,6z (399)
+[0128/135724.664:INFO:CONSOLE(399)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com.my/maps/@4.140634,109.6181485,6z (399)
+[0128/135743.930:INFO:CONSOLE(87)] "WebSocket connection to 'ws://localhost:8081/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED", source: http://localhost:8080/ (87)
+[0128/135744.282:INFO:CONSOLE(136)] "start dragging", source: http://localhost:8080/ (136)
+[0128/135745.033:INFO:CONSOLE(147)] "stop dragging", source: http://localhost:8080/ (147)
+[0128/135745.034:INFO:CONSOLE(149)] "116.68909764734225,5.952606695272834", source: http://localhost:8080/ (149)
+[0128/135745.034:INFO:CONSOLE(167)] "WebSocket is already in CLOSING or CLOSED state.", source: http://localhost:8080/ (167)
+[0128/135747.512:INFO:CONSOLE(136)] "start dragging", source: http://localhost:8080/ (136)
+[0128/135748.674:INFO:CONSOLE(147)] "stop dragging", source: http://localhost:8080/ (147)
+[0128/135748.674:INFO:CONSOLE(149)] "116.70287332159677,5.9773740308742305", source: http://localhost:8080/ (149)
+[0128/135748.674:INFO:CONSOLE(167)] "WebSocket is already in CLOSING or CLOSED state.", source: http://localhost:8080/ (167)
+[0128/135751.193:INFO:CONSOLE(136)] "start dragging", source: http://localhost:8080/ (136)
+[0128/135752.169:INFO:CONSOLE(147)] "stop dragging", source: http://localhost:8080/ (147)
+[0128/135752.170:INFO:CONSOLE(149)] "116.70283461695647,5.97593975873896", source: http://localhost:8080/ (149)
+[0128/135752.170:INFO:CONSOLE(167)] "WebSocket is already in CLOSING or CLOSED state.", source: http://localhost:8080/ (167)
+[0128/135757.658:INFO:CONSOLE(136)] "start dragging", source: http://localhost:8080/ (136)
+[0128/135758.538:INFO:CONSOLE(147)] "stop dragging", source: http://localhost:8080/ (147)
+[0128/135758.538:INFO:CONSOLE(149)] "116.70270939773717,5.974611976837764", source: http://localhost:8080/ (149)
+[0128/135758.538:INFO:CONSOLE(167)] "WebSocket is already in CLOSING or CLOSED state.", source: http://localhost:8080/ (167)
+[0128/135831.296:INFO:CONSOLE(136)] "start dragging", source: http://localhost:8080/ (136)
+[0128/135832.321:INFO:CONSOLE(147)] "stop dragging", source: http://localhost:8080/ (147)
+[0128/135832.321:INFO:CONSOLE(149)] "116.70382863859668,5.975801852850026", source: http://localhost:8080/ (149)
+[0128/135832.321:INFO:CONSOLE(167)] "WebSocket is already in CLOSING or CLOSED state.", source: http://localhost:8080/ (167)
+[0128/135834.837:INFO:CONSOLE(960)] "[Report Only] Refused to compile or instantiate WebAssembly module because 'wasm-eval' is not an allowed source of script in the following Content Security Policy directive: "script-src 'nonce-HlwCBVNswAnZ6TviGAfaZg' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:".
+", source: https://www.google.com.my/maps/_/js/k=maps.m.en.Xb5VWAMJfAQ.2019.O/m=sc2,per,mo,lp,ti,ds,stx,dwi,enr,bom,b/am=4ABIHAAF/rt=j/d=1/rs=ACT90oHPgzxKhXv3BCPkUfPImXvjt1iCig?wli=m.P5qFv5UPlUo.loadSv.O%3A%3B (960)
+[0128/135835.576:INFO:CONSOLE(399)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com.my/maps/@4.140634,109.6181485,6z (399)
+[0128/135835.576:INFO:CONSOLE(399)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com.my/maps/@4.140634,109.6181485,6z (399)
+[0128/135835.576:INFO:CONSOLE(399)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.google.com.my/maps/@4.140634,109.6181485,6z (399)

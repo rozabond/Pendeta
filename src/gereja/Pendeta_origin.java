@@ -50,7 +50,7 @@ import javax.swing.UIDefaults;
 import javax.swing.UIManager;
 import javax.swing.border.LineBorder;
 import javax.swing.filechooser.FileSystemView;
-import login.F_Encrype_main;
+import f_Encryption.F_Encrype_main;
 import s_sidebar2.s_sidebar1A;
 import s_sidebar2.s_sidebar2A;
 import s_sidebar2.s_sidebarAA;

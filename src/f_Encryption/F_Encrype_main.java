@@ -1,9 +1,12 @@
-package login;
+package f_Encryption;
  
 import b_file_function.b_file_encryption_cannidate;
 import b_file_function.b_file_illiterator;
 import b_file_function.b_file_info;
 import initialization.initialization;
+import login.CryptoEncryption;
+import login.F_Cytorype;
+
 import java.io.File;
  
 /**

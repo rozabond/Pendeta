@@ -7,7 +7,7 @@ package initialization;
 
 import connection.c_connection_search;
 import f_seachbar.f_button;
-import f_searchbar.f_searchbar;
+import f_seachbar.f_searchbar;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.event.ActionEvent;

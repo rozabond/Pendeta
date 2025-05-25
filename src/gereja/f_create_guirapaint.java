@@ -18,7 +18,7 @@ import java.awt.event.ActionListener;
 import java.util.Stack;
 import javax.swing.JButton;
 import javax.swing.SwingConstants;
-import login.F_Encrype_main;
+import f_Encryption.F_Encrype_main;
 import s_sidebar2.s_sidebar1A;
 
 /**

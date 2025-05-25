@@ -13,7 +13,7 @@ import f_button_main.f_button_main_AC_Add_gereja;
 import f_button_main.f_button_main_AD_Change;
 import f_button_main.f_button_main_AE_logout;
 import f_infogereja.i_info_gereja;
-import f_searchbar.f_searchbar;
+import f_seachbar.f_searchbar;
 import initialization.initialization;
 import java.awt.BorderLayout;
 import java.awt.Color;

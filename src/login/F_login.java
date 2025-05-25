@@ -2,13 +2,14 @@ package login;
 
 import addcomponent.SpringUtilities;
 import c_connection.g_testconnection;
-import com.formdev.flatlaf.intellijthemes.materialthemeuilite.FlatMaterialDeepOceanContrastIJTheme;
+import com.formdev.flatlaf.intellijthemes.materialthemeuilite.FlatMaterialOceanicIJTheme;
 import connection.c_connection_pass;
 import gereja.Pendeta_origin;
 import java.awt.Color;
 import java.awt.Cursor;
 import java.awt.Dimension;
 import java.awt.GridLayout;
+import java.awt.Image;
 import java.awt.Toolkit;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
@@ -48,9 +49,9 @@ import static login.F_Login_initialization.textField_4;
  */
 public class F_login extends javax.swing.JFrame {
     JLabel l_a_p = new JLabel("Username or Password not correct", JLabel.TRAILING);
-    JLabel Register = new JLabel("<HTML><U>Register</U></HTML>");
+    JButton Register = new  javax.swing.JButton("Register");
     JLabel Forget_Password = new JLabel("<HTML><U>Forget Password?</U></HTML>");
-         JLabel Title = new JLabel("Welcome, Pendeta", JLabel.TRAILING);
+    JLabel Title = new JLabel("Welcome, Pendeta", JLabel.TRAILING);
         
     F_Encrype decrpte = new F_Encrype();
     c_connection_pass key_in =  new c_connection_pass();
@@ -80,7 +81,6 @@ public class F_login extends javax.swing.JFrame {
     private void init_label(){
         l_a_p.setVisible(false);
         l_a_p.setForeground(Color.yellow);
-        Register.setForeground(new Color(75,82,109));
         Forget_Password.setForeground(new Color(75,82,109));      
         Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
 this.setLocation(dim.width/2-325/2, dim.height/4);
@@ -113,7 +113,7 @@ this.setIconImage(imgicon.getImage());
             //this.setDefaultCloseOperation(EXIT_ON_CLOSE); 
              	
         try {
-            UIManager.setLookAndFeel( new FlatMaterialDeepOceanContrastIJTheme() );
+            UIManager.setLookAndFeel( new FlatMaterialOceanicIJTheme() );
             //JLabel background=new JLabel(new ImageIcon("C:\\Users\\Computer\\Downloads\\colorful design.png"));
         } catch (UnsupportedLookAndFeelException ex) {
             Logger.getLogger(F_login.class.getName()).log(Level.SEVERE, null, ex);
@@ -133,19 +133,46 @@ this.setIconImage(imgicon.getImage());
         
             SpringLayout layout = new SpringLayout();
             F_Login_initialization.hai_origin.setLayout(layout);
-            F_Login_initialization.hai_origin.setPreferredSize(new Dimension(325,350));
+            F_Login_initialization.hai_origin.setPreferredSize(new Dimension(425,525));
             F_Login_initialization.hai_origin.setBounds(0, 0,  F_Login_initialization.hai_origin.getWidth(),  F_Login_initialization.hai_origin.getHeight());
         
       
            Title.setForeground(Color.WHITE);
            JButton loginbtn = new javax.swing.JButton("Login");
+           JButton googleLoginBtn = new javax.swing.JButton("Login with Google");
+           // Set preferred size for both buttons to match
+           Dimension buttonSize = new Dimension(200, 35);
+           loginbtn.setPreferredSize(buttonSize);
+           googleLoginBtn.setPreferredSize(buttonSize);
+           Register.setPreferredSize(buttonSize);
+           
+           // Create separator line
+           JLabel separator = new JLabel("------------------OR--------------------");
+           separator.setForeground(Color.WHITE);
+           
+           // Style Google login button
+           googleLoginBtn.setBackground(new Color(66, 133, 244));
+           googleLoginBtn.setForeground(Color.WHITE);
+           
+           // Add Google icon
+           try {
+               ImageIcon googleIcon = new ImageIcon(getClass().getResource("/image/google_icon.png"));
+               // Resize icon if needed
+               Image img = googleIcon.getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH);
+               googleIcon = new ImageIcon(img);
+               googleLoginBtn.setIcon(googleIcon);
+               googleLoginBtn.setIconTextGap(10); // Space between icon and text
+           } catch (Exception e) {
+               System.out.println("Google icon not found, continuing without icon");
+           }
+           
            JTextField textField_1 = new JTextField(50);
            JTextField textField_2 = new JTextField(50); 
-           JPanel hai2 = new JPanel(new GridLayout(0,2,20,10));
-           hai2.setPreferredSize(new Dimension(400,70));
+           JPanel hai2 = new JPanel(new GridLayout(4, 1, 5, 5));
+           hai2.setPreferredSize(new Dimension(300,150));
            hai2.setBounds(0, 0, hai2.getWidth(), hai2.getHeight());
            //hai2.setBackground(new Color(0,0,51));
-         
+        
            Register.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
            Register.addMouseListener(new MouseAdapter()  
 {  
@@ -173,15 +200,26 @@ this.setIconImage(imgicon.getImage());
             }
         });
            
+           // Add Google login button action listener
+           googleLoginBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                // TODO: Implement Google login
+                JOptionPane.showMessageDialog(null, 
+                    "Google login functionality will be implemented here", 
+                    "Coming Soon", 
+                    JOptionPane.INFORMATION_MESSAGE);
+            }
+        });
            
-            JLabel l = new JLabel("Email", JLabel.TRAILING);
+           
+            JLabel l = new JLabel("Email", JLabel.LEADING);
             l.setForeground(Color.WHITE);
             hai2.add(l);
         
             textField_1.setPreferredSize(new Dimension(hai2.getWidth(),70));
             l.setLabelFor(textField_1);
             hai2.add(textField_1);
-            JLabel l_2 = new JLabel("Password", JLabel.TRAILING);
+            JLabel l_2 = new JLabel("Password", JLabel.LEADING);
             l_2.setForeground(Color.WHITE);
             hai2.add(l_2);
             textField_2.setPreferredSize(new Dimension(hai2.getWidth(),70));
@@ -193,25 +231,31 @@ this.setIconImage(imgicon.getImage());
                                         6, 20,        //initX, initY
                                         6, 20);       //xPad, yPad 
             
-            layout.putConstraint(SpringLayout.VERTICAL_CENTER, Title, -90, SpringLayout.VERTICAL_CENTER,  F_Login_initialization.hai_origin);  
-            layout.putConstraint(SpringLayout.HORIZONTAL_CENTER, Title,0, SpringLayout.HORIZONTAL_CENTER,  F_Login_initialization.hai_origin); 
-            layout.putConstraint(SpringLayout.VERTICAL_CENTER, hai2, -5, SpringLayout.VERTICAL_CENTER,  F_Login_initialization.hai_origin);  
-            layout.putConstraint(SpringLayout.HORIZONTAL_CENTER, hai2,-70, SpringLayout.HORIZONTAL_CENTER,  F_Login_initialization.hai_origin); 
+            layout.putConstraint(SpringLayout.VERTICAL_CENTER, Title, -150, SpringLayout.VERTICAL_CENTER,  F_Login_initialization.hai_origin);  
+            layout.putConstraint(SpringLayout.HORIZONTAL_CENTER, Title, 0, SpringLayout.HORIZONTAL_CENTER,  F_Login_initialization.hai_origin); 
+            layout.putConstraint(SpringLayout.VERTICAL_CENTER, hai2, -35, SpringLayout.VERTICAL_CENTER,  F_Login_initialization.hai_origin);  
+            layout.putConstraint(SpringLayout.HORIZONTAL_CENTER, hai2, 0, SpringLayout.HORIZONTAL_CENTER,  F_Login_initialization.hai_origin); 
             layout.putConstraint(SpringLayout.VERTICAL_CENTER, loginbtn, 90, SpringLayout.VERTICAL_CENTER,  F_Login_initialization.hai_origin);  
-            layout.putConstraint(SpringLayout.HORIZONTAL_CENTER, loginbtn,100, SpringLayout.HORIZONTAL_CENTER,  F_Login_initialization.hai_origin); 
-            layout.putConstraint(SpringLayout.VERTICAL_CENTER, Register, 90, SpringLayout.VERTICAL_CENTER,  F_Login_initialization.hai_origin);  
-            layout.putConstraint(SpringLayout.HORIZONTAL_CENTER, Register,-100, SpringLayout.HORIZONTAL_CENTER,  F_Login_initialization.hai_origin); 
-            layout.putConstraint(SpringLayout.VERTICAL_CENTER, Forget_Password, 90, SpringLayout.VERTICAL_CENTER,  F_Login_initialization.hai_origin);  
-            layout.putConstraint(SpringLayout.HORIZONTAL_CENTER, Forget_Password,-80, SpringLayout.HORIZONTAL_CENTER,  F_Login_initialization.hai_origin); 
-            layout.putConstraint(SpringLayout.VERTICAL_CENTER, l_a_p, 120, SpringLayout.VERTICAL_CENTER,  F_Login_initialization.hai_origin);  
-            layout.putConstraint(SpringLayout.HORIZONTAL_CENTER, l_a_p,30, SpringLayout.HORIZONTAL_CENTER,  F_Login_initialization.hai_origin); 
-            layout.putConstraint(SpringLayout.VERTICAL_CENTER,   l_a_product_email, -90, SpringLayout.VERTICAL_CENTER,  F_Login_initialization.hai_origin);  
-            layout.putConstraint(SpringLayout.HORIZONTAL_CENTER, l_a_product_email,0, SpringLayout.HORIZONTAL_CENTER,  F_Login_initialization.hai_origin); 
+            layout.putConstraint(SpringLayout.HORIZONTAL_CENTER, loginbtn, 0, SpringLayout.HORIZONTAL_CENTER,  F_Login_initialization.hai_origin); 
+            layout.putConstraint(SpringLayout.VERTICAL_CENTER, separator, 120, SpringLayout.VERTICAL_CENTER,  F_Login_initialization.hai_origin);
+            layout.putConstraint(SpringLayout.HORIZONTAL_CENTER, separator, 0, SpringLayout.HORIZONTAL_CENTER,  F_Login_initialization.hai_origin);
+            layout.putConstraint(SpringLayout.VERTICAL_CENTER, googleLoginBtn, 150, SpringLayout.VERTICAL_CENTER,  F_Login_initialization.hai_origin);
+            layout.putConstraint(SpringLayout.HORIZONTAL_CENTER, googleLoginBtn, 0, SpringLayout.HORIZONTAL_CENTER,  F_Login_initialization.hai_origin); 
+            layout.putConstraint(SpringLayout.VERTICAL_CENTER, Register, 190, SpringLayout.VERTICAL_CENTER,  F_Login_initialization.hai_origin);  
+            layout.putConstraint(SpringLayout.HORIZONTAL_CENTER, Register, 0, SpringLayout.HORIZONTAL_CENTER,  F_Login_initialization.hai_origin); 
+            layout.putConstraint(SpringLayout.VERTICAL_CENTER, Forget_Password, 190, SpringLayout.VERTICAL_CENTER,  F_Login_initialization.hai_origin);  
+            layout.putConstraint(SpringLayout.HORIZONTAL_CENTER, Forget_Password, 0, SpringLayout.HORIZONTAL_CENTER,  F_Login_initialization.hai_origin); 
+            layout.putConstraint(SpringLayout.VERTICAL_CENTER, l_a_p, 220, SpringLayout.VERTICAL_CENTER,  F_Login_initialization.hai_origin);  
+            layout.putConstraint(SpringLayout.HORIZONTAL_CENTER, l_a_p, 30, SpringLayout.HORIZONTAL_CENTER,  F_Login_initialization.hai_origin); 
+            layout.putConstraint(SpringLayout.VERTICAL_CENTER, l_a_product_email, -150, SpringLayout.VERTICAL_CENTER,  F_Login_initialization.hai_origin);  
+            layout.putConstraint(SpringLayout.HORIZONTAL_CENTER, l_a_product_email, 0, SpringLayout.HORIZONTAL_CENTER,  F_Login_initialization.hai_origin); 
                              
             
              F_Login_initialization.hai_origin.add(Title);
              F_Login_initialization.hai_origin.add(hai2);
              F_Login_initialization.hai_origin.add(loginbtn);
+             F_Login_initialization.hai_origin.add(separator);
+             F_Login_initialization.hai_origin.add(googleLoginBtn);
              F_Login_initialization.hai_origin.add(Register);
              F_Login_initialization.hai_origin.add(Forget_Password);
              F_Login_initialization.hai_origin.add(l_a_p);

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="v6.5.0-dist2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/classes/c_connection/v6.5.0-dist.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
