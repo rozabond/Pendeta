@@ -19,13 +19,19 @@ import java.awt.Dimension;
 import java.awt.FlowLayout;
 import java.awt.Graphics;
 import java.awt.GridLayout;
+import java.awt.GridBagConstraints;
+import java.awt.GridBagLayout;
+import java.awt.Insets;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JButton;
+import javax.swing.JComboBox;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.ScrollPaneConstants;
+import javax.swing.BoxLayout;
+import javax.swing.Box;
 
 /**
  *
@@ -49,6 +55,7 @@ public class f_main_AC {
         super.paintComponent(g);
     }
 };
+
     
     public JPanel notes01_B_A_J_P = new JPanel(){
     protected void paintComponent(Graphics g)
@@ -58,7 +65,10 @@ public class f_main_AC {
         super.paintComponent(g);
     }
 };
-    public JLabel notes01_B_A_J = new JLabel("Department");
+    public JLabel notes01_B_A_J = new JLabel("Block Name");
+
+
+    
     public JPanel notes01_B_A_T_P = new JPanel(){
     protected void paintComponent(Graphics g)
     {
@@ -124,6 +134,7 @@ public class f_main_AC {
         initialized_notes01_B_A_P();
         initialized_notes01_B_B_P();
         initialized_notes01_B_C_P();
+     //   initialized_extra_notes01_B_A_P();
         i_initializing();
         notes01_B();
         button();
@@ -131,12 +142,13 @@ public class f_main_AC {
     
     private void initialized_notes01_B_A_P(){
         notes01_B_A_P.setLayout(new BorderLayout());
-        notes01_B_A_P.setPreferredSize(new Dimension(initialization.e_containerWidth-100,80));
-        notes01_B_A_P.setBounds(0,0,initialization.e_containerWidth,30);
+        notes01_B_A_P.setPreferredSize(new Dimension(initialization.e_containerWidth-100,70));
+        notes01_B_A_P.setBounds(0,0,initialization.e_containerWidth,70);
     
-        notes01_B_A_J_P.setLayout(new FlowLayout(FlowLayout.LEFT, 0, 20));
-        notes01_B_A_J_P.setPreferredSize(new Dimension(initialization.e_containerWidth,50));
-        notes01_B_A_J_P.setBounds(0,0,initialization.e_containerWidth,50);
+        // notes01_B_A_J_P.setLayout(new FlowLayout(FlowLayout.LEFT, 0, 10)); this 10 is for the vertical space from 0
+        notes01_B_A_J_P.setLayout(new FlowLayout(FlowLayout.LEFT, 0, 10));
+        notes01_B_A_J_P.setPreferredSize(new Dimension(initialization.e_containerWidth,40));
+        notes01_B_A_J_P.setBounds(0,0,initialization.e_containerWidth,40);
         notes01_B_A_J.setForeground(Color.white);
         notes01_B_A_J_P.add(notes01_B_A_J);
      
@@ -155,15 +167,85 @@ public class f_main_AC {
         notes01_B_A_P.add(notes01_B_A_T_P,BorderLayout.CENTER);
     }
     
+
+    public JPanel initialized_extra_notes01_B_A_P(){
+
+            
+JPanel notes_01_B_A_P_NO = new JPanel(new FlowLayout(FlowLayout.LEFT, 0, 30)){
+    protected void paintComponent(Graphics g)
+    {
+        g.setColor( getBackground() );
+        g.fillRect(0, 0, getWidth(), getHeight());
+        super.paintComponent(g);
+    }
+};
+ 
+
+     JPanel notes01_B_A_J_P = new JPanel(){
+        protected void paintComponent(Graphics g)
+        {
+            g.setColor( getBackground() );
+            g.fillRect(0, 0, getWidth(), getHeight());
+            super.paintComponent(g);
+        }
+    };
+        
+    JLabel notes01_B_A_J = new JLabel("Purposes");
+
+    JPanel notes01_B_A_T_P = new JPanel(){
+        protected void paintComponent(Graphics g)
+        {
+            g.setColor( getBackground() );
+            g.fillRect(0, 0, getWidth(), getHeight());
+            super.paintComponent(g);
+        }
+    };
+
+    JPanel notes01_B_A_T_B_P = new JPanel(){
+        protected void paintComponent(Graphics g)
+    {
+        g.setColor( getBackground() );
+        g.fillRect(0, 0, getWidth(), getHeight());
+        super.paintComponent(g);
+    }   
+    };
+
+
+        notes_01_B_A_P_NO.setLayout(new BorderLayout());
+        notes_01_B_A_P_NO.setPreferredSize(new Dimension(initialization.e_containerWidth-100,75));
+        notes_01_B_A_P_NO.setBounds(0,0,initialization.e_containerWidth,75);
+    
+        notes01_B_A_J_P.setLayout(new FlowLayout(FlowLayout.LEFT, 0, 10));
+        notes01_B_A_J_P.setPreferredSize(new Dimension(initialization.e_containerWidth,40));
+        notes01_B_A_J_P.setBounds(0,0,initialization.e_containerWidth,40);
+        notes01_B_A_J.setForeground(Color.white);
+        notes01_B_A_J_P.add(notes01_B_A_J);
+     
+        
+        notes01_B_A_T_P.setLayout(new FlowLayout(FlowLayout.LEFT, 0, 0));
+        notes01_B_A_T_P.setPreferredSize(new Dimension(initialization.e_containerWidth,35));
+        notes01_B_A_T_P.setBounds(0,0,initialization.e_containerWidth,35);
+       // initialization.notes01_B_A_T.setPreferredSize(new Dimension(200,30)); 
+        notes01_B_A_T_P.add(initialization.notes_combo);
+        notes01_B_A_T_B_P.setLayout(new FlowLayout(FlowLayout.RIGHT,0,0));
+        notes01_B_A_T_B_P.setPreferredSize(new Dimension(initialization.e_containerWidth/3,35));
+        notes01_B_A_T_B_P.setBounds(0,0,initialization.e_containerWidth/3,35);
+        notes01_B_A_T_P.add(notes01_B_A_T_B_P);
+        
+        notes_01_B_A_P_NO.add(notes01_B_A_J_P,BorderLayout.PAGE_START);
+        notes_01_B_A_P_NO.add(notes01_B_A_T_P,BorderLayout.CENTER);
+    
+    return notes_01_B_A_P_NO;
+    }
    
     
     
     private void initialized_notes01_B_B_P(){
         notes01_B_B_P.setLayout(new BorderLayout());
-        notes01_B_B_P.setPreferredSize(new Dimension(initialization.e_containerWidth,50));
-        notes01_B_B_P.setBounds(0,0,initialization.e_containerWidth-200,50);
+        notes01_B_B_P.setPreferredSize(new Dimension(initialization.e_containerWidth,45));
+        notes01_B_B_P.setBounds(0,0,initialization.e_containerWidth-200,45);
     
-        notes01_B_B_T_P.setLayout(new FlowLayout(FlowLayout.LEFT, 0, 10));
+        notes01_B_B_T_P.setLayout(new FlowLayout(FlowLayout.LEFT, 0, 0));
         notes01_B_B_T_P.setPreferredSize(new Dimension(initialization.e_containerWidth,40));
         notes01_B_B_T_P.setBounds(0,0,initialization.e_containerWidth,40);
         notes01_B_B_J.setForeground(Color.white);
@@ -235,11 +317,28 @@ public class f_main_AC {
                                        
         return container;
     }
+
+    private JPanel centerPanel(int width,int height){
+        JPanel centerPanel = new JPanel();
+        centerPanel.setPreferredSize(new Dimension(width,height-350));
+        centerPanel.setBounds(0,0,width,height-350);
+        centerPanel.setLayout(new FlowLayout(FlowLayout.LEFT, 0,0)); // 20 pixel vertical gap
+        centerPanel.setOpaque(false);
+        
+        // Add components
+        centerPanel.add(initialized_extra_notes01_B_A_P());
+        centerPanel.add(notes01_B_A_P);
+        return centerPanel;
+    }
     
     private void notes01_B(){
-        notes01_B.add(notes01_B_A_P,BorderLayout.PAGE_START);
-        notes01_B.add(notes01_B_B_P,BorderLayout.CENTER);
-        notes01_B.add(notes01_B_C_P,BorderLayout.PAGE_END);
+ 
+        
+        // Add panels to main container
+       
+        notes01_B.add(centerPanel(initialization.e_containerWidth,initialization.e_containerHeight/2+200), BorderLayout.PAGE_START);
+        notes01_B.add(notes01_B_B_P, BorderLayout.CENTER);
+        notes01_B.add(notes01_B_C_P, BorderLayout.PAGE_END);
     }
      
     private JPanel initialized_notes01_B(int width, int height) {
@@ -265,7 +364,7 @@ public class f_main_AC {
                     
                        button.g_repaint();
                       }else{
-        JOptionPane.showMessageDialog(null, "Church or Description cannot be empty", "Warning", JOptionPane.WARNING_MESSAGE);                          
+        JOptionPane.showMessageDialog(null, "Block or Description cannot be empty", "Warning", JOptionPane.WARNING_MESSAGE);                          
         
                       }
                         }

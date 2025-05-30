@@ -36,6 +36,7 @@ import javafile.J_poepleImageSaved;
 import javax.swing.BorderFactory;
 import javax.swing.BoxLayout;
 import javax.swing.JButton;
+import javax.swing.JComboBox;
 import javax.swing.JFrame;
 import javax.swing.JLayeredPane;
 import javax.swing.JOptionPane;
@@ -164,6 +165,13 @@ public class initialization {
   
   static public JTextField notes01_B_A_T = new JTextField();
   static public JTextArea notes01_B_B_T = new JTextArea(5,20);
+
+  static public JComboBox<String> notes_combo = new JComboBox<>(new String[]{
+    "gereja / church",
+    "department",
+    "family",
+    "others"
+});
   //i put -1 so that the system know sinario x and y
   static public int notes01_B_A_ID = -1;
   static public int notes01_B_A_T_initialization_id;

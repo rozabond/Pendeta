@@ -15,6 +15,7 @@ import initialization.initialization_f_family03_info_button;
 import initialization.initialization_f_searchbar_button;
 import initialization.initialization_genesis;
 import initialization.initialization_s_sidebar1A_addbutton;
+import gereja.AddBlockButton.AddBlockButton;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Cursor;
@@ -37,7 +38,6 @@ import java.util.Stack;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.imageio.ImageIO;
-import javax.swing.BoxLayout;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -46,10 +46,7 @@ import javax.swing.JOptionPane;
 import javax.swing.ScrollPaneConstants;
 import javax.swing.SpringLayout;
 import javax.swing.SwingConstants;
-import javax.swing.UIDefaults;
-import javax.swing.UIManager;
 import javax.swing.border.LineBorder;
-import javax.swing.filechooser.FileSystemView;
 import f_Encryption.F_Encrype_main;
 import s_sidebar2.s_sidebar1A;
 import s_sidebar2.s_sidebar2A;
@@ -112,6 +109,8 @@ public class Pendeta_origin extends javax.swing.JFrame  {
  
  c_connection_church church = new c_connection_church();
  
+ AddBlockButton blockButton = new AddBlockButton();
+
  JButton b = (new JButton("Menu"));
   BufferedImage image = null;        
       
@@ -119,7 +118,7 @@ public class Pendeta_origin extends javax.swing.JFrame  {
      * Creates new form gereja
      */
     public Pendeta_origin() throws Exception {
-     initComponents();
+        initComponents();
         container_pastor_tools.setVisible(false);
         pane.setPreferredSize(new Dimension(jLayeredPane2.getWidth(),jLayeredPane2.getHeight()));
         //jLayeredPane1.setSize(new Dimension(jLayeredPane2.getWidth(),jLayeredPane2.getHeight()));
@@ -131,10 +130,11 @@ public class Pendeta_origin extends javax.swing.JFrame  {
    
         G_testConnection();
         g_webserver.t_swing_worker();
-        
+
         i_initialize();
         d_display_map(); 
         d_displaybutton();        
+        blockButton.AddBlockButton();
         d_displaygereja(); 
 
    
@@ -386,7 +386,9 @@ this.setLocation(25, 25);
                          initialization_genesis.jp.repaint();
                         
    }
-    
+   
+   
+
    public void d_displaygereja(){
     int number = 0;
     Stack<String> stack = new Stack<String>();
@@ -407,7 +409,7 @@ this.setLocation(25, 25);
                         
                         JButton b = (new JButton(intern.trim().replace("_"," ")));
                         b.setName(intern);
-                        b.setHorizontalAlignment(SwingConstants.LEFT);
+                        b.setHorizontalAlignment(SwingConstants.CENTER);
                        // b.setHorizontalAlignment(SwingConstants.LEFT);
                         b.setPreferredSize(new Dimension(jPanel2.getWidth()-20, 40));
                         b.setBackground( new Color(0, 0, 51, 10) );
@@ -425,7 +427,7 @@ this.setLocation(25, 25);
                            returnnamagereja(o.getName());
                            initialization.gereja =Gereja_nama;
                            
-                          F_Decryt_name();
+                           F_Decryt_name();
                             //it work!!
                            s_sidebar1A side = new s_sidebar1A(); 
                            initialization.container();

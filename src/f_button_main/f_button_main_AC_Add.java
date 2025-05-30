@@ -9,6 +9,8 @@ import g_button_main_folder.f_main_AC;
 import g_button_main_folder.f_main_AC_B;
 import gereja.f_save_department;
 import initialization.initialization;
+import s_sidebar2.s_sidebarAA;
+
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.event.ActionEvent;
@@ -37,9 +39,8 @@ public class f_button_main_AC_Add {
                         public void actionPerformed(ActionEvent e){             
                            f_main_AC department = new f_main_AC();
                            f_main_AC_B department_tambah_gambar = new f_main_AC_B();
-                           f_save_department return_button = new f_save_department();
-                            
-                            
+                          
+                                              
                        
                             cleareverything();
                             department.i_initializing_pane_container();
@@ -48,11 +49,18 @@ public class f_button_main_AC_Add {
                             initialization.pane_container.add(department.return_notes01_B(),3);
                             initialization.pane_container.repaint();
                             initialization.pane_container.revalidate();
-                       
+                     
+                            s_sidebarAA side = new s_sidebarAA(); 
+                            initialization.container();
+                            initialization.container.add(side.return_container());
+                            initialization.container.repaint();
+                            initialization.container.revalidate();   
+
                         }
                         });
     }
-    private void cleareverything(){     
+    private void cleareverything(){  
+    initialization.container.removeAll();   
     initialization.pane_container.removeAll();
     initialization.e_container.removeAll();
     initialization.pane_container.repaint();

@@ -54,14 +54,14 @@ g_addfile_system();
        private void g_addfile_system(){
    f_button_main_AA first = new f_button_main_AA(container.getWidth());    
    f_button_main_AB_import imp = new f_button_main_AB_import(container.getWidth());  
-   f_button_main_AC_Add add = new f_button_main_AC_Add(container.getWidth());
-   f_button_main_AC_Add_gereja gereja = new f_button_main_AC_Add_gereja(container.getWidth());
+//30/5/2025 no longer need a church
+   //   f_button_main_AC_Add_gereja gereja = new f_button_main_AC_Add_gereja(container.getWidth());
    f_button_main_AD_Change change = new f_button_main_AD_Change(container.getWidth());  
    f_button_main_AE_logout logout = new f_button_main_AE_logout(container.getWidth());  
    container.add(first.r_g_button());
    container.add(imp.r_g_button());
-   container.add(add.r_g_button());
-   container.add(gereja.r_g_button());
+//   container.add(add.r_g_button());
+  // container.add(gereja.r_g_button());
    container.add(change.r_g_button());
    container.add(logout.r_g_button());
     }
